@@ -49,9 +49,9 @@ SPEC = {
     "episode_label": "Series 2, lecture 2  -  Graph databases and GraphRAG",
     "thumbnail": {
         "image": "results/app_ask.png",
-        "crop": None, "panel_w": 620,
-        "lines": ["GraphRAG", "vs vector RAG", "I tested it"],
-        "sub": "Graph databases + RAG, built step by step",
+        "crop": (712, 318, 1452, 828), "panel_w": 560,
+        "lines": ["GraphRAG", "vs RAG:", "I tested it"],
+        "sub": "Built step by step",
     },
     "lexicon": {
         r"\bGraphRAG\b": "graph rag", r"\bKuzu\b": "koo-zoo", r"\bCypher\b": "cypher", r"\bNeo4j\b": "neo four J",
@@ -415,9 +415,9 @@ SPEC = {
                 "Qwen3-8B, running locally. There are three sets of questions. The fact questions are the same ones from "
                 "the last lecture. The multi-hop questions need facts from several reports or editions, put together. And the big-picture "
                 "questions have no single right answer. Facts and multi-hop answers are scored automatically against the "
-                "numbers and names that must appear. Big-picture answers are compared in pairs by a larger model, "
-                "Qwen3-14B, and each pair is judged twice with the order swapped, because language-model judges tend to "
-                "prefer whichever answer they read first."
+                "numbers and names that must appear. Big-picture answers are compared in pairs by a larger judge model, "
+                "called Qwen3-14B. Each pair is judged twice, with the order swapped, because language-model judges tend "
+                "to prefer whichever answer they read first."
             )},
         },
         {
