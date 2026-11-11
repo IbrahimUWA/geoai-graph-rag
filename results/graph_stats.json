@@ -1,0 +1,166 @@
+{
+ "chunks_read": 2739,
+ "parsed_ok": 2739,
+ "raw_entity_mentions": 26041,
+ "entities": 5744,
+ "relations": 13898,
+ "raw_relations": 18032,
+ "entity_types": [
+  [
+   "Indicator",
+   2502
+  ],
+  [
+   "Commodity",
+   916
+  ],
+  [
+   "Location",
+   785
+  ],
+  [
+   "Event",
+   745
+  ],
+  [
+   "Organisation",
+   505
+  ],
+  [
+   "Policy",
+   291
+  ]
+ ],
+ "relation_types": [
+  [
+   "AFFECTS",
+   6133
+  ],
+  [
+   "RELATED_TO",
+   3312
+  ],
+  [
+   "FORECASTS",
+   1517
+  ],
+  [
+   "PRODUCED_IN",
+   1302
+  ],
+  [
+   "EXPORTED_TO",
+   1135
+  ],
+  [
+   "PART_OF",
+   319
+  ],
+  [
+   "COMPETES_WITH",
+   180
+  ]
+ ],
+ "top_entities": [
+  [
+   "ABARES",
+   1023
+  ],
+  [
+   "Australia",
+   537
+  ],
+  [
+   "China",
+   489
+  ],
+  [
+   "United States",
+   467
+  ],
+  [
+   "New South Wales",
+   315
+  ],
+  [
+   "wheat",
+   305
+  ],
+  [
+   "Western Australia",
+   278
+  ],
+  [
+   "Queensland",
+   272
+  ],
+  [
+   "Victoria",
+   247
+  ],
+  [
+   "South Australia",
+   241
+  ],
+  [
+   "barley",
+   227
+  ],
+  [
+   "canola",
+   212
+  ],
+  [
+   "ABS",
+   194
+  ],
+  [
+   "European Union",
+   194
+  ],
+  [
+   "beef",
+   191
+  ],
+  [
+   "Bureau of Meteorology",
+   185
+  ],
+  [
+   "rainfall",
+   176
+  ],
+  [
+   "Brazil",
+   161
+  ],
+  [
+   "cotton",
+   152
+  ],
+  [
+   "sorghum",
+   149
+  ],
+  [
+   "wool",
+   148
+  ],
+  [
+   "drought",
+   144
+  ],
+  [
+   "India",
+   126
+  ],
+  [
+   "sheep meat",
+   125
+  ],
+  [
+   "Argentina",
+   108
+  ]
+ ]
+}

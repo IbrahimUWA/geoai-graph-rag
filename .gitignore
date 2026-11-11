@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+data/pdfs/*.pdf
+data/*.jsonl
+data/*.npy
+data/*.json
+!data/eval_questions.json
+data/graph.kuzu*
+data/*.log
+data/extractions_test.jsonl
+settings.json
+video/
+voice/
+*.zip

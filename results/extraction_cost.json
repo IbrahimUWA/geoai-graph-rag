@@ -1,0 +1,7 @@
+{
+ "chunks": 2739,
+ "hours": 4.0,
+ "gpu": "one NVIDIA GPU, Qwen3-8B, batch 64",
+ "chunks_per_second": 0.19,
+ "summary": "reading all 2,739 passages took about four hours on one GPU"
+}

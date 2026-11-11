@@ -1,0 +1,413 @@
+[
+ {
+  "q": "What is ABARES' September 2026 forecast for Australia's national winter crop production in 2026-27?",
+  "must": [
+   [
+    "61 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "How does the 2026-27 national winter crop forecast compare with the 10-year average?",
+  "must": [
+   [
+    "16%",
+    "16 per cent"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "How much wheat is Australia forecast to produce in 2026-27?",
+  "must": [
+   [
+    "29.9 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What is the 2026-27 forecast for Australian barley production?",
+  "must": [
+   [
+    "16.4 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What is the forecast for canola production in 2026-27?",
+  "must": [
+   [
+    "7.3 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What lentil production is forecast for 2026-27?",
+  "must": [
+   [
+    "2.3 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What is Western Australia's winter crop production forecast for 2026-27?",
+  "must": [
+   [
+    "22.8 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "Why is Western Australia's winter crop expected to be smaller in 2026-27 than the year before?",
+  "must": [
+   [
+    "rainfall",
+    "yields"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What is the forecast for national summer crop production in 2026-27?",
+  "must": [
+   [
+    "3.4 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "In September 2025, what did ABARES forecast for national winter crop production in 2025-26?",
+  "must": [
+   [
+    "62 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2025-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What is the forecast gross value of agricultural production in 2026-27?",
+  "must": [
+   [
+    "99.4 billion"
+   ]
+  ],
+  "gold": "abares_ag_commodities_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What is the forecast value of Australian agricultural exports in 2026-27?",
+  "must": [
+   [
+    "76.3 billion"
+   ]
+  ],
+  "gold": "abares_ag_commodities_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What share of Australia's water consumption is used by agriculture, fisheries and forestry?",
+  "must": [
+   [
+    "68.3"
+   ]
+  ],
+  "gold": "abares_snapshot_ag_2026.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "How many broadacre and dairy farm businesses were there in Australia in 2023-24?",
+  "must": [
+   [
+    "53,400",
+    "53 400",
+    "53400"
+   ]
+  ],
+  "gold": "abares_snapshot_ag_2026.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "By how much did the gross value of agricultural, fisheries and forestry production grow in real terms over the past 20 years?",
+  "must": [
+   [
+    "45%",
+    "45 per cent"
+   ]
+  ],
+  "gold": "abares_snapshot_ag_2026.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "What was average broadacre farm cash income in 2024-25?",
+  "must": [
+   [
+    "266,000",
+    "266 000",
+    "266000"
+   ]
+  ],
+  "gold": "abares_farm_financial_performance_2026-06.pdf",
+  "access": "internal",
+  "kind": "fact"
+ },
+ {
+  "q": "What was the total value of outstanding loans and leases to the Australian farm sector at 30 June 2025?",
+  "must": [
+   [
+    "142.5 billion"
+   ]
+  ],
+  "gold": "abares_agricultural_lending_2024-25.pdf",
+  "access": "internal",
+  "kind": "fact"
+ },
+ {
+  "q": "How many new farm loan foreclosures were there in 2024-25?",
+  "must": [
+   [
+    "122"
+   ]
+  ],
+  "gold": "abares_agricultural_lending_2024-25.pdf",
+  "access": "internal",
+  "kind": "fact"
+ },
+ {
+  "q": "What is ABARES forecasting for Australia's winter crop production in 2026-27, and how does it compare with the 10-year average?",
+  "must": [
+   [
+    "61 million"
+   ],
+   [
+    "16%",
+    "16 per cent"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "q": "How much barley is Western Australia expected to produce in 2026-27?",
+  "must": [
+   [
+    "6,800",
+    "6800",
+    "6.8 million"
+   ]
+  ],
+  "gold": "abares_crop_report_2026-09.pdf",
+  "access": "public",
+  "kind": "fact"
+ },
+ {
+  "kind": "multihop",
+  "q": "How did ABARES' September forecasts of Australia's national winter crop production change from 2024-25 to 2025-26 to 2026-27?",
+  "must": [
+   [
+    "55.2 million"
+   ],
+   [
+    "62 million"
+   ],
+   [
+    "61 million"
+   ]
+  ],
+  "gold": [
+   "abares_crop_report_2024-09.pdf",
+   "abares_crop_report_2025-09.pdf",
+   "abares_crop_report_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "Compare the September forecasts for Australian wheat production in 2024-25, 2025-26 and 2026-27.",
+  "must": [
+   [
+    "31.8 million"
+   ],
+   [
+    "33.8 million"
+   ],
+   [
+    "29.9 million"
+   ]
+  ],
+  "gold": [
+   "abares_crop_report_2024-09.pdf",
+   "abares_crop_report_2025-09.pdf",
+   "abares_crop_report_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "How did the September forecast for the gross value of agricultural production change across 2024-25, 2025-26 and 2026-27?",
+  "must": [
+   [
+    "86.2 billion"
+   ],
+   [
+    "94.7 billion"
+   ],
+   [
+    "99.4 billion"
+   ]
+  ],
+  "gold": [
+   "abares_ag_commodities_2024-09.pdf",
+   "abares_ag_commodities_2025-09.pdf",
+   "abares_ag_commodities_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "What were ABARES' September forecasts for Australian agricultural export value in 2024-25, 2025-26 and 2026-27?",
+  "must": [
+   [
+    "68.5 billion",
+    "72.6 billion"
+   ],
+   [
+    "74.6 billion"
+   ],
+   [
+    "76.3 billion"
+   ]
+  ],
+  "gold": [
+   "abares_ag_commodities_2024-09.pdf",
+   "abares_ag_commodities_2025-09.pdf",
+   "abares_ag_commodities_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "How does the September 2026 forecast for Western Australia's winter crop compare with the September 2025 forecast for the previous season?",
+  "must": [
+   [
+    "23.9 million"
+   ],
+   [
+    "22.8 million"
+   ]
+  ],
+  "gold": [
+   "abares_crop_report_2025-09.pdf",
+   "abares_crop_report_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "Compare the September 2025 and September 2026 forecasts for Australian barley and canola production.",
+  "must": [
+   [
+    "14.6 million"
+   ],
+   [
+    "16.4 million"
+   ],
+   [
+    "6.4 million"
+   ],
+   [
+    "7.3 million"
+   ]
+  ],
+  "gold": [
+   "abares_crop_report_2025-09.pdf",
+   "abares_crop_report_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "What was average broadacre farm cash income in 2024-25, and what was the total value of outstanding farm loans and leases at 30 June 2025?",
+  "must": [
+   [
+    "266,000",
+    "266 000",
+    "266000"
+   ],
+   [
+    "142.5 billion"
+   ]
+  ],
+  "gold": [
+   "abares_farm_financial_performance_2026-06.pdf",
+   "abares_agricultural_lending_2024-25.pdf"
+  ]
+ },
+ {
+  "kind": "multihop",
+  "q": "How much barley is Western Australia expected to produce in 2026-27, and what share of the national barley forecast is that?",
+  "must": [
+   [
+    "6,800",
+    "6800",
+    "6.8 million"
+   ],
+   [
+    "16.4 million"
+   ]
+  ],
+  "gold": [
+   "abares_crop_report_2026-09.pdf"
+  ]
+ },
+ {
+  "kind": "global",
+  "q": "What are the main drivers of change in Australian agricultural production and export values across these reports?"
+ },
+ {
+  "kind": "global",
+  "q": "What are the main themes in how seasonal and climate conditions affect Australian farm production?"
+ },
+ {
+  "kind": "global",
+  "q": "How do Australia's major export markets and global competitors shape the outlook for its agricultural commodities?"
+ },
+ {
+  "kind": "global",
+  "q": "What are the main risks and uncertainties facing Australian grain growers according to these reports?"
+ },
+ {
+  "kind": "global",
+  "q": "What overall trends appear across Australia's states in winter crop production?"
+ },
+ {
+  "kind": "global",
+  "q": "What are the major themes concerning Australia's livestock industries?"
+ }
+]

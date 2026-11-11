@@ -1,0 +1,12 @@
+# PyTorch is installed first by install.bat / install.sh (CUDA build if you have an NVIDIA GPU, else CPU).
+kuzu==0.11.3              # embedded graph database (Cypher), no server needed
+gradio>=5.0,<7
+sentence-transformers>=3.0
+transformers>=4.51
+rank-bm25
+numpy
+pandas
+networkx>=3.2
+requests
+pymupdf                   # only for rebuilding from the PDFs
+matplotlib                # only for the figures
