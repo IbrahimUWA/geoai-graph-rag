@@ -1,0 +1,6336 @@
+{
+ "summary": {
+  "raw_mentions_kept": 25916,
+  "entities": 5724,
+  "mentions_by_method": {
+   "exact": 18110,
+   "plural": 6681,
+   "case_punct": 838,
+   "alias": 287
+  },
+  "merged_form_pairs": 237,
+  "pairs_by_method": {
+   "plural": 215,
+   "alias": 22
+  },
+  "type_conflict_entities": 123,
+  "judge_model": "Qwen/Qwen3-14B",
+  "pairs_judged_different": 16,
+  "pairs_judged_different_by_method": {
+   "plural": 16
+  },
+  "mentions_in_pairs_judged_different": 28,
+  "type_conflicts_judged_different": 25,
+  "mentions_in_type_conflicts_judged_different": 278
+ },
+ "pairs": [
+  {
+   "entity": "drought",
+   "a": "drought",
+   "b": "droughts",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "A climate event characterised by prolonged dry conditions.",
+    "A climate event causing dry conditions."
+   ],
+   "desc_b": [
+    "Periods of below-average rainfall affecting agricultural productivity."
+   ],
+   "same": true,
+   "reason": "Drought and droughts refer to the same real-world phenomenon, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "farm profit",
+   "a": "farm profits",
+   "b": "farm profit",
+   "method": "plural",
+   "mentions_b": 26,
+   "desc_a": [
+    "Financial returns from agricultural operations.",
+    "Profit levels of broadacre farm businesses."
+   ],
+   "desc_b": [
+    "Economic measure of farm performance.",
+    "Profit level of farms."
+   ],
+   "same": true,
+   "reason": "Both refer to the financial gain from farming activities, with 'profits' and 'profit' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "abare",
+   "a": "ABARES",
+   "b": "Australian Bureau of Agricultural and Resource Economics and Sciences",
+   "method": "alias",
+   "mentions_b": 13,
+   "desc_a": [
+    "Australian government body providing agricultural insights.",
+    "Australian Bureau of Agricultural and Resource Economics and Sciences."
+   ],
+   "desc_b": [
+    "Research organisation conducting agricultural and resource economics research.",
+    "Government body responsible for agricultural and resource economics research."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the same organization, with ABARES being the abbreviation of the full name."
+  },
+  {
+   "entity": "el niño",
+   "a": "El Niño",
+   "b": "El Nino",
+   "method": "alias",
+   "mentions_b": 3,
+   "desc_a": [
+    "Climate event characterised by warmer-than-average sea surface temperatures in the central and eastern tropical Pacific Ocean.",
+    "Climate phenomenon affecting weather patterns."
+   ],
+   "desc_b": [
+    "Climate event affecting weather patterns.",
+    "Climate event that can affect wheat production."
+   ],
+   "same": true,
+   "reason": "El Niño and El Nino are variations in spelling of the same climate phenomenon."
+  },
+  {
+   "entity": "western australia",
+   "a": "Western Australia",
+   "b": "WA",
+   "method": "alias",
+   "mentions_b": 10,
+   "desc_a": [
+    "Australian state where winter crops are forecast.",
+    "Australian state."
+   ],
+   "desc_b": [
+    "Australian state.",
+    "Western Australia, an Australian state."
+   ],
+   "same": true,
+   "reason": "WA is the abbreviation of Western Australia, which refers to the same Australian state."
+  },
+  {
+   "entity": "new south wales",
+   "a": "New South Wales",
+   "b": "NSW",
+   "method": "alias",
+   "mentions_b": 15,
+   "desc_a": [
+    "Australian state.",
+    "Australian state with significant wheat production."
+   ],
+   "desc_b": [
+    "Australian state.",
+    "New South Wales, an Australian state."
+   ],
+   "same": true,
+   "reason": "NSW is the standard abbreviation for New South Wales, an Australian state."
+  },
+  {
+   "entity": "victoria",
+   "a": "Victoria",
+   "b": "VIC",
+   "method": "alias",
+   "mentions_b": 11,
+   "desc_a": [
+    "Australian state.",
+    "Australian state with below average forecast crop production."
+   ],
+   "desc_b": [
+    "Australian state.",
+    "Victoria, an Australian state."
+   ],
+   "same": true,
+   "reason": "VIC is the abbreviation for Victoria, an Australian state."
+  },
+  {
+   "entity": "south australia",
+   "a": "South Australia",
+   "b": "SA",
+   "method": "alias",
+   "mentions_b": 9,
+   "desc_a": [
+    "Australian state.",
+    "Australian state with below average forecast crop production."
+   ],
+   "desc_b": [
+    "Australian state.",
+    "South Australia, an Australian state."
+   ],
+   "same": true,
+   "reason": "SA is the abbreviation of South Australia, which refers to the same Australian state."
+  },
+  {
+   "entity": "dairy product",
+   "a": "Dairy products",
+   "b": "dairy product",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Products derived from milk.",
+    "Products derived from dairy farming."
+   ],
+   "desc_b": [
+    "Milk and dairy-based products.",
+    "Products derived from milk, including butter, cheese, and milk powder."
+   ],
+   "same": true,
+   "reason": "Both forms refer to products derived from milk, with only minor differences in phrasing and plurality."
+  },
+  {
+   "entity": "lamb",
+   "a": "Lamb",
+   "b": "lambs",
+   "method": "plural",
+   "mentions_b": 26,
+   "desc_a": [
+    "Livestock product.",
+    "Meat from young sheep."
+   ],
+   "desc_b": [
+    "Livestock product from sheep.",
+    "Livestock product in Victoria’s Central North region."
+   ],
+   "same": true,
+   "reason": "Lamb and lambs refer to the same real-world thing, with the difference being singular vs. plural."
+  },
+  {
+   "entity": "queensland",
+   "a": "Queensland",
+   "b": "Qld",
+   "method": "alias",
+   "mentions_b": 8,
+   "desc_a": [
+    "Australian state.",
+    "Australian state with significant wheat production."
+   ],
+   "desc_b": [
+    "Queensland, an Australian state."
+   ],
+   "same": true,
+   "reason": "Qld is the abbreviation of Queensland, which refers to the same Australian state."
+  },
+  {
+   "entity": "wine grape",
+   "a": "Wine grapes",
+   "b": "wine grape",
+   "method": "plural",
+   "mentions_b": 10,
+   "desc_a": [
+    "Crop used for producing wine.",
+    "Major agricultural commodity category."
+   ],
+   "desc_b": [
+    "Grapes used for wine production.",
+    "Crop used in wine production."
+   ],
+   "same": true,
+   "reason": "Both refer to the same crop used for wine production, with only minor differences in phrasing."
+  },
+  {
+   "entity": "sugar",
+   "a": "Sugar",
+   "b": "Sugars",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Cane or beet sugar produced from crops.",
+    "Agricultural commodity."
+   ],
+   "desc_b": [
+    "Sugar products."
+   ],
+   "same": true,
+   "reason": "Sugars is a plural form of sugar, referring to the same category of agricultural commodity."
+  },
+  {
+   "entity": "united arab emirates",
+   "a": "United Arab Emirates",
+   "b": "UAE",
+   "method": "alias",
+   "mentions_b": 6,
+   "desc_a": [
+    "Country in the Middle East.",
+    "Third largest export market for Australian sheep meat."
+   ],
+   "desc_b": [
+    "Country in the Middle East.",
+    "Export market for Australian pulses."
+   ],
+   "same": true,
+   "reason": "UAE is the abbreviation of United Arab Emirates, referring to the same country."
+  },
+  {
+   "entity": "average export price",
+   "a": "Average export price",
+   "b": "average export prices",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Average price of agricultural commodities exported.",
+    "Average price of wool exports."
+   ],
+   "desc_b": [
+    "Prices for beef exports to the United States in 2024–25."
+   ],
+   "same": false,
+   "reason": "Form A refers to a general average export price, while Form B specifies prices for beef exports to the United States in a particular timeframe."
+  },
+  {
+   "entity": "prawn",
+   "a": "Prawns",
+   "b": "prawn",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "A type of crustacean harvested for seafood.",
+    "Wild-caught seafood species contributing to production value growth."
+   ],
+   "desc_b": [
+    "Seafood export product."
+   ],
+   "same": true,
+   "reason": "Prawns and prawn refer to the same seafood species, with the only difference being singular vs. plural form."
+  },
+  {
+   "entity": "european union",
+   "a": "European Union",
+   "b": "EU",
+   "method": "alias",
+   "mentions_b": 19,
+   "desc_a": [
+    "Key export destination for Australian biofuel.",
+    "Export market for Australian sheep meat."
+   ],
+   "desc_b": [
+    "Major producer of grains.",
+    "European Union, including France and Moselle."
+   ],
+   "same": true,
+   "reason": "EU is an abbreviation of the European Union, referring to the same real-world entity."
+  },
+  {
+   "entity": "red wine",
+   "a": "Red wine",
+   "b": "red wines",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Wine produced from red grape varieties.",
+    "Wine made from red grapes."
+   ],
+   "desc_b": [
+    "Wine produced from red grape varieties."
+   ],
+   "same": true,
+   "reason": "Red wine and red wines refer to the same category of wine, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "united states",
+   "a": "United States",
+   "b": "US",
+   "method": "alias",
+   "mentions_b": 48,
+   "desc_a": [
+    "Country where agricultural commodities are produced.",
+    "Competitor market for Australian beef."
+   ],
+   "desc_b": [
+    "United States of America.",
+    "Major producer of grains."
+   ],
+   "same": true,
+   "reason": "US is an abbreviation of United States, referring to the same country."
+  },
+  {
+   "entity": "united states",
+   "a": "United States",
+   "b": "USA",
+   "method": "alias",
+   "mentions_b": 2,
+   "desc_a": [
+    "Country where agricultural commodities are produced.",
+    "Competitor market for Australian beef."
+   ],
+   "desc_b": [
+    "Export market for Australian agricultural commodities.",
+    "International market for wine grapes."
+   ],
+   "same": true,
+   "reason": "USA is an abbreviation of United States, referring to the same country."
+  },
+  {
+   "entity": "united states",
+   "a": "United States",
+   "b": "United States of America",
+   "method": "alias",
+   "mentions_b": 2,
+   "desc_a": [
+    "Country where agricultural commodities are produced.",
+    "Competitor market for Australian beef."
+   ],
+   "desc_b": [
+    "Export destination for Australian agriculture, fisheries and forestry exports.",
+    "Exporting country of pig meat."
+   ],
+   "same": true,
+   "reason": "Both refer to the same country, with 'United States of America' being the full name of 'United States'."
+  },
+  {
+   "entity": "cropping area",
+   "a": "cropping areas",
+   "b": "cropping area",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Area of land used for cropping.",
+    "Total area used for cropping in a region."
+   ],
+   "desc_b": [
+    "Land area used for crop production.",
+    "Area of land used for cropping activities."
+   ],
+   "same": true,
+   "reason": "Both terms refer to land used for cropping, with only minor differences in phrasing."
+  },
+  {
+   "entity": "bureau of meteorology",
+   "a": "Bureau of Meteorology",
+   "b": "BOM",
+   "method": "alias",
+   "mentions_b": 10,
+   "desc_a": [
+    "Australian government agency providing weather forecasts.",
+    "Australian government body providing meteorological data."
+   ],
+   "desc_b": [
+    "Australian Bureau of Meteorology, a government agency.",
+    "Australian Bureau of Meteorology."
+   ],
+   "same": true,
+   "reason": "BOM is the abbreviation of Bureau of Meteorology."
+  },
+  {
+   "entity": "soybean",
+   "a": "soybeans",
+   "b": "soybean",
+   "method": "plural",
+   "mentions_b": 37,
+   "desc_a": [
+    "Crop with mixed conditions in Argentina and South Africa due to hot and dry weather.",
+    "Agricultural crop."
+   ],
+   "desc_b": [
+    "A leguminous crop.",
+    "Oilseed used for vegetable oils and protein meal."
+   ],
+   "same": true,
+   "reason": "Soybeans and soybean refer to the same crop, with the difference being singular vs. plural form."
+  },
+  {
+   "entity": "soybean",
+   "a": "soybeans",
+   "b": "soyabean",
+   "method": "alias",
+   "mentions_b": 1,
+   "desc_a": [
+    "Crop with mixed conditions in Argentina and South Africa due to hot and dry weather.",
+    "Agricultural crop."
+   ],
+   "desc_b": [
+    "Major crop from South America."
+   ],
+   "same": true,
+   "reason": "Soybeans and soyabean are alternative spellings of the same crop."
+  },
+  {
+   "entity": "yield",
+   "a": "yields",
+   "b": "yield",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Crop output levels from farming activities.",
+    "Amount of crop produced per unit area."
+   ],
+   "desc_b": [
+    "Amount of crop produced per unit area.",
+    "Production output of a commodity."
+   ],
+   "same": true,
+   "reason": "Yields and yield refer to the same concept of crop production output, with yields being the plural form."
+  },
+  {
+   "entity": "livestock product",
+   "a": "Livestock products",
+   "b": "livestock product",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Products from livestock.",
+    "Products derived from livestock such as meat and wool."
+   ],
+   "desc_b": [
+    "Products derived from livestock.",
+    "Products derived from livestock such as meat and dairy."
+   ],
+   "same": true,
+   "reason": "Both forms refer to products derived from livestock, with only minor differences in phrasing and examples."
+  },
+  {
+   "entity": "south korea",
+   "a": "Korea",
+   "b": "Republic of Korea",
+   "method": "alias",
+   "mentions_b": 27,
+   "desc_a": [
+    "Export market for Australian beef.",
+    "Country."
+   ],
+   "desc_b": [
+    "Major market for Australian goat meat.",
+    "Export market for Australian beef."
+   ],
+   "same": true,
+   "reason": "Korea and Republic of Korea refer to the same country."
+  },
+  {
+   "entity": "south korea",
+   "a": "Korea",
+   "b": "South Korea",
+   "method": "alias",
+   "mentions_b": 12,
+   "desc_a": [
+    "Export market for Australian beef.",
+    "Country."
+   ],
+   "desc_b": [
+    "Premium market for table grapes.",
+    "Country in the region of the world with wheat export value data."
+   ],
+   "same": true,
+   "reason": "Korea and South Korea refer to the same country in this context."
+  },
+  {
+   "entity": "milk yield",
+   "a": "milk yields",
+   "b": "Milk yield",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Volume of milk produced per cow.",
+    "Volume of milk produced per dairy cow in Australia."
+   ],
+   "desc_b": [
+    "Volume of milk produced per cow.",
+    "Amount of milk produced per cow."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of milk produced per cow, with only minor differences in phrasing and specificity."
+  },
+  {
+   "entity": "farm cash income",
+   "a": "Farm cash income",
+   "b": "farm cash incomes",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Income received by farmers from agricultural activities.",
+    "Cash income received by farms."
+   ],
+   "desc_b": [
+    "Cash receipts minus cash costs for farms.",
+    "Measured cash income for farms."
+   ],
+   "same": true,
+   "reason": "Both refer to the cash income of farms, with B being the plural form of A."
+  },
+  {
+   "entity": "fertiliser",
+   "a": "Fertiliser",
+   "b": "fertilisers",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Nutrients applied to crops to enhance growth.",
+    "Agricultural input used in farming."
+   ],
+   "desc_b": [
+    "Inputs used in agricultural production.",
+    "Inputs used in sugarcane farming."
+   ],
+   "same": true,
+   "reason": "Fertiliser and fertilisers are singular and plural forms of the same thing."
+  },
+  {
+   "entity": "cost",
+   "a": "Costs",
+   "b": "cost",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Total expenses incurred by farmers.",
+    "Expenses incurred by farm businesses."
+   ],
+   "desc_b": [
+    "Factor that hinders the adoption of methane reduction technologies."
+   ],
+   "same": false,
+   "reason": "Form A refers to financial expenses, while Form B refers to a hindering factor, which are different concepts."
+  },
+  {
+   "entity": "lentil",
+   "a": "lentils",
+   "b": "lentil",
+   "method": "plural",
+   "mentions_b": 22,
+   "desc_a": [
+    "Winter crop.",
+    "Crop grown in southern states."
+   ],
+   "desc_b": [
+    "A legume crop grown in Australia.",
+    "A legume crop."
+   ],
+   "same": true,
+   "reason": "Lentils and lentil refer to the same crop, with the difference being singular vs. plural form."
+  },
+  {
+   "entity": "northern territory",
+   "a": "Northern Territory",
+   "b": "NT",
+   "method": "alias",
+   "mentions_b": 1,
+   "desc_a": [
+    "Australian territory.",
+    "Australian state."
+   ],
+   "desc_b": [
+    "Northern Territory, an Australian state."
+   ],
+   "same": true,
+   "reason": "NT is the abbreviation of Northern Territory, which is an Australian territory."
+  },
+  {
+   "entity": "tasmania",
+   "a": "Tasmania",
+   "b": "TAS",
+   "method": "alias",
+   "mentions_b": 1,
+   "desc_a": [
+    "Australian state.",
+    "Australian state known for dairy farming."
+   ],
+   "desc_b": [
+    "Tasmania, an Australian state."
+   ],
+   "same": true,
+   "reason": "TAS is the abbreviation for Tasmania, an Australian state."
+  },
+  {
+   "entity": "export volume",
+   "a": "export volumes",
+   "b": "export volume",
+   "method": "plural",
+   "mentions_b": 4,
+   "desc_a": [
+    "Volume of cotton exported.",
+    "Amount of cotton exported by Australia."
+   ],
+   "desc_b": [
+    "Volume of meat exported.",
+    "Total quantity of pulses exported."
+   ],
+   "same": false,
+   "reason": "Form A refers to cotton exports, while Form B refers to meat and pulses exports, indicating different commodities."
+  },
+  {
+   "entity": "beef export volume",
+   "a": "beef export volumes",
+   "b": "beef export volume",
+   "method": "plural",
+   "mentions_b": 8,
+   "desc_a": [
+    "Volume of beef exported.",
+    "Volume of beef exported by Argentina."
+   ],
+   "desc_b": [
+    "Volume of beef exported by Australia.",
+    "Volume of beef exported."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of beef exported, with minor differences in specificity (e.g., country) that do not change the core concept."
+  },
+  {
+   "entity": "russia",
+   "a": "Russian Federation",
+   "b": "Russia",
+   "method": "alias",
+   "mentions_b": 15,
+   "desc_a": [
+    "Region with poor corn production conditions.",
+    "Country with decreased barley production."
+   ],
+   "desc_b": [
+    "Major producer of grains.",
+    "Country in Eastern Europe."
+   ],
+   "same": true,
+   "reason": "Russia and Russian Federation refer to the same country."
+  },
+  {
+   "entity": "vegetable",
+   "a": "Vegetables",
+   "b": "vegetable",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Horticultural products including vegetables.",
+    "A category of horticultural products."
+   ],
+   "desc_b": [
+    "Edible plant product."
+   ],
+   "same": true,
+   "reason": "Both refer to edible plant products, with 'vegetables' being the plural form of 'vegetable'."
+  },
+  {
+   "entity": "crop",
+   "a": "Crops",
+   "b": "crop",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Agricultural products derived from plants.",
+    "Agricultural products such as wheat, canola, and other field crops."
+   ],
+   "desc_b": [
+    "General term for agricultural crops.",
+    "Crops including wheat and other agricultural produce."
+   ],
+   "same": true,
+   "reason": "Both forms refer to agricultural products derived from plants, with 'crop' being a singular or general term for 'crops'."
+  },
+  {
+   "entity": "sheep slaughtering",
+   "a": "sheep slaughtering",
+   "b": "sheep slaughterings",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of sheep meat production and processing.",
+    "Sheep slaughtering activity."
+   ],
+   "desc_b": [
+    "Number of sheep slaughtered."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the act or process of slaughtering sheep, with 'slaughterings' being a plural form of 'slaughtering'."
+  },
+  {
+   "entity": "australian dollar",
+   "a": "Australian dollar",
+   "b": "Australian dollars",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Value of the Australian currency.",
+    "Value of the Australian dollar, affecting import prices."
+   ],
+   "desc_b": [
+    "Currency used for pricing and value measurements in the report.",
+    "Currency used for canola export values."
+   ],
+   "same": true,
+   "reason": "Australian dollar and Australian dollars refer to the same currency, with the latter being the plural form."
+  },
+  {
+   "entity": "pig price",
+   "a": "pig prices",
+   "b": "pig price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Price of pig meat in Australia.",
+    "Prices for pig meat."
+   ],
+   "desc_b": [
+    "Average price of pigs per kilogram (carcase weight)."
+   ],
+   "same": true,
+   "reason": "Both refer to the price of pig meat, with slight differences in specificity."
+  },
+  {
+   "entity": "united kingdom",
+   "a": "United Kingdom",
+   "b": "UK",
+   "method": "alias",
+   "mentions_b": 2,
+   "desc_a": [
+    "Export market for Australian sheep meat.",
+    "Major export market for Australian agricultural commodities."
+   ],
+   "desc_b": [
+    "Export market for Australian agricultural commodities.",
+    "Market for Australian sheep meat products."
+   ],
+   "same": true,
+   "reason": "UK is an abbreviation of United Kingdom, referring to the same real-world entity."
+  },
+  {
+   "entity": "cropping farm",
+   "a": "cropping farms",
+   "b": "cropping farm",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Farms engaged in crop production.",
+    "Farms involved in broadacre cropping activities."
+   ],
+   "desc_b": [
+    "A type of farm that grows crops.",
+    "Agricultural operation focused on crop production."
+   ],
+   "same": true,
+   "reason": "Cropping farms and cropping farm refer to the same type of agricultural entity, with the only difference being singular vs. plural form."
+  },
+  {
+   "entity": "beef farm",
+   "a": "beef farms",
+   "b": "beef farm",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Farms primarily focused on beef production.",
+    "Farms that raise beef."
+   ],
+   "desc_b": [
+    "A type of farm that raises livestock for beef production.",
+    "Agricultural operation focused on livestock production."
+   ],
+   "same": true,
+   "reason": "Beef farms and beef farm refer to the same type of agricultural operation, with the only difference being singular vs. plural form."
+  },
+  {
+   "entity": "broadacre farm",
+   "a": "broadacre farms",
+   "b": "broadacre farm",
+   "method": "plural",
+   "mentions_b": 4,
+   "desc_a": [
+    "Agricultural farms that grow crops and graze livestock.",
+    "Farms engaged in broadacre agriculture."
+   ],
+   "desc_b": [
+    "Type of farm in Australia.",
+    "Agricultural farms with an estimated value of agricultural operations (EVAO) greater than $40,000 per year."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the same type of agricultural farm in Australia, with slight differences in description but overlapping definitions."
+  },
+  {
+   "entity": "farm business profit",
+   "a": "Farm business profit",
+   "b": "farm business profits",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Profit generated by agricultural businesses.",
+    "Profit generated from farm business operations."
+   ],
+   "desc_b": [
+    "Net income after accounting for family labour and depreciation.",
+    "Profit levels for farm businesses."
+   ],
+   "same": true,
+   "reason": "Both refer to the profit generated by farm businesses, with only a minor difference in plurality that does not change the underlying concept."
+  },
+  {
+   "entity": "wool price",
+   "a": "wool prices",
+   "b": "wool price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Price of wool in the market.",
+    "Price of wool in the global market."
+   ],
+   "desc_b": [
+    "Price of wool in the market.",
+    "Average annual price of wool in Australia."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of wool, with minor differences in specificity that do not indicate distinct real-world entities."
+  },
+  {
+   "entity": "lamb saleyard price",
+   "a": "lamb saleyard prices",
+   "b": "lamb saleyard price",
+   "method": "plural",
+   "mentions_b": 4,
+   "desc_a": [
+    "Prices of lambs sold at saleyards.",
+    "Average prices for lamb at saleyards in 2026–27."
+   ],
+   "desc_b": [
+    "Price of lamb at saleyards.",
+    "Average price of lamb sold at saleyards."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with Form A being the plural and Form B the singular of the same entity."
+  },
+  {
+   "entity": "mutton saleyard price",
+   "a": "mutton saleyard prices",
+   "b": "mutton saleyard price",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Prices of mutton sold at saleyards.",
+    "Prices for mutton at saleyards."
+   ],
+   "desc_b": [
+    "Price of mutton at saleyards.",
+    "Average price of mutton at saleyards."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept of mutton prices at saleyards, with Form A being plural and Form B being singular or average."
+  },
+  {
+   "entity": "production value",
+   "a": "production values",
+   "b": "production value",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Monetary value of production.",
+    "Monetary value of agricultural commodity production."
+   ],
+   "desc_b": [
+    "Monetary value of agricultural production."
+   ],
+   "same": true,
+   "reason": "Both terms refer to the monetary value of agricultural production, with 'production values' being a plural form of 'production value'."
+  },
+  {
+   "entity": "chickpea",
+   "a": "chickpeas",
+   "b": "chickpea",
+   "method": "plural",
+   "mentions_b": 33,
+   "desc_a": [
+    "Crop grown in southern states.",
+    "Pulse crop subject to import tariffs."
+   ],
+   "desc_b": [
+    "A legume crop.",
+    "A legume crop grown in Australia."
+   ],
+   "same": true,
+   "reason": "Chickpeas and chickpea refer to the same legume crop, with the difference being singular vs. plural form."
+  },
+  {
+   "entity": "summer crop",
+   "a": "summer crops",
+   "b": "summer crop",
+   "method": "plural",
+   "mentions_b": 13,
+   "desc_a": [
+    "Crops typically grown during the summer season.",
+    "Crops grown during the summer season in northern hemisphere regions."
+   ],
+   "desc_b": [
+    "Crops grown during the summer season.",
+    "A type of crop grown in Australia during the summer season."
+   ],
+   "same": true,
+   "reason": "Both refer to crops grown during the summer season, with minor differences in phrasing and regional context that do not indicate distinct entities."
+  },
+  {
+   "entity": "pulse export value",
+   "a": "pulse export values",
+   "b": "pulse export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Total value of pulses exported.",
+    "Total value of pulse exports from Australia."
+   ],
+   "desc_b": [
+    "Value of pulse exports."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with Form A being the plural of Form B."
+  },
+  {
+   "entity": "average farm cash income",
+   "a": "Average farm cash income",
+   "b": "Average farm cash incomes",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Financial performance of farms in Victoria’s Central North region.",
+    "Average income per farm in the Far West region."
+   ],
+   "desc_b": [
+    "Cash income levels of farms, calculated as the difference between cash receipts and costs.",
+    "Average cash incomes for broadacre farms."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept of average farm cash income, with Form B being the plural form of the same metric."
+  },
+  {
+   "entity": "export value",
+   "a": "export value",
+   "b": "export values",
+   "method": "plural",
+   "mentions_b": 12,
+   "desc_a": [
+    "Monetary value of cotton exports.",
+    "Total monetary value of agricultural commodities exported."
+   ],
+   "desc_b": [
+    "Monetary value of exports.",
+    "Monetary value of commodity exports."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of monetary value of exports."
+  },
+  {
+   "entity": "wheat yield",
+   "a": "wheat yield",
+   "b": "wheat yields",
+   "method": "plural",
+   "mentions_b": 7,
+   "desc_a": [
+    "Volume of wheat produced.",
+    "Wheat production per hectare."
+   ],
+   "desc_b": [
+    "The amount of wheat produced per unit area.",
+    "Yield of wheat in 2025–26."
+   ],
+   "same": true,
+   "reason": "Wheat yield and wheat yields refer to the same concept, with the latter being a plural form of the former."
+  },
+  {
+   "entity": "neutral year",
+   "a": "neutral year",
+   "b": "neutral years",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "A year with average rainfall conditions.",
+    "A year with neutral seasonal conditions in Australia."
+   ],
+   "desc_b": [
+    "Years with average or typical climatic conditions."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of years with average climatic conditions."
+  },
+  {
+   "entity": "production volume",
+   "a": "production volumes",
+   "b": "production volume",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Quantities of agricultural commodities produced.",
+    "Volume of sheep production."
+   ],
+   "desc_b": [
+    "Amount of wine produced.",
+    "Amount of crops produced."
+   ],
+   "same": false,
+   "reason": "Form A refers to quantities of agricultural commodities in general, while Form B refers to specific amounts of wine or crops."
+  },
+  {
+   "entity": "export price",
+   "a": "export prices",
+   "b": "export price",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Prices received for Australian canola exports.",
+    "Price of canola exports."
+   ],
+   "desc_b": [
+    "Price at which Australian beef is sold to international markets.",
+    "Price at which commodities are sold in international markets."
+   ],
+   "same": false,
+   "reason": "Form A refers to canola exports, while Form B refers to beef or general commodities, indicating different contexts."
+  },
+  {
+   "entity": "saleyard price",
+   "a": "saleyard prices",
+   "b": "saleyard price",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Prices at which cattle are sold in saleyards.",
+    "Prices of livestock at saleyards."
+   ],
+   "desc_b": [
+    "Price of beef at saleyards in Australia.",
+    "Price of cattle at saleyards."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of livestock at saleyards, with 'saileyard prices' being the plural form of 'saleyard price'."
+  },
+  {
+   "entity": "farmgate milk price",
+   "a": "farmgate milk price",
+   "b": "farmgate milk prices",
+   "method": "plural",
+   "mentions_b": 19,
+   "desc_a": [
+    "Price of milk at the farm gate.",
+    "Price of milk at the farm level in Australia."
+   ],
+   "desc_b": [
+    "Prices received by farmers for milk at the farm gate.",
+    "Prices at which milk is sold by farmers to processors."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of milk prices at the farm gate."
+  },
+  {
+   "entity": "farm income",
+   "a": "farm income",
+   "b": "farm incomes",
+   "method": "plural",
+   "mentions_b": 7,
+   "desc_a": [
+    "Economic measure of farm profitability.",
+    "Earnings of farmers from agricultural activities."
+   ],
+   "desc_b": [
+    "Economic performance of farms.",
+    "Earnings of farmers in Australia."
+   ],
+   "same": true,
+   "reason": "Farm income and farm incomes refer to the same concept, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "grain export value",
+   "a": "Grain export values",
+   "b": "grain export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Total value of grain exports from Australia.",
+    "Total value of grain exports."
+   ],
+   "desc_b": [
+    "Total value of grain exports."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with Form A being a pluralized version of Form B."
+  },
+  {
+   "entity": "apple",
+   "a": "Apples",
+   "b": "apple",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "A fruit crop.",
+    "Fruit crop grown in Australia."
+   ],
+   "desc_b": [
+    "Fruit being exported to China."
+   ],
+   "same": true,
+   "reason": "Both refer to the fruit 'apple,' with differences in capitalization and context being insignificant."
+  },
+  {
+   "entity": "banana",
+   "a": "Bananas",
+   "b": "banana",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "A fruit crop.",
+    "Crop impacted by flooding, leading to potential price increases."
+   ],
+   "desc_b": [
+    "Fruit crop affected by supply disruptions."
+   ],
+   "same": true,
+   "reason": "Both refer to the same fruit crop, with only a difference in capitalization."
+  },
+  {
+   "entity": "sheep meat and live sheep export",
+   "a": "sheep meat and live sheep exports",
+   "b": "sheep meat and live sheep export",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Export value of sheep meat and live sheep.",
+    "Total value of sheep meat and live sheep exports."
+   ],
+   "desc_b": [
+    "Combined value of sheep meat and live sheep exports."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the same real-world concept of exports involving sheep meat and live sheep."
+  },
+  {
+   "entity": "wool export value",
+   "a": "wool export value",
+   "b": "wool export values",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of wool exports."
+   ],
+   "desc_b": [
+    "Export value of wool."
+   ],
+   "same": true,
+   "reason": "Both refer to the value of wool exports, with 'values' being a plural form of 'value'."
+  },
+  {
+   "entity": "western district",
+   "a": "Western District",
+   "b": "Western Districts",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Region in Victoria."
+   ],
+   "desc_b": [
+    "Region in Victoria with improved yields for cereal crops."
+   ],
+   "same": true,
+   "reason": "Western Districts is likely a plural or more specific reference to the same region known as Western District in Victoria."
+  },
+  {
+   "entity": "crop yield",
+   "a": "crop yields",
+   "b": "crop yield",
+   "method": "plural",
+   "mentions_b": 4,
+   "desc_a": [
+    "Volume of crops produced.",
+    "Amount of crop produced per unit area."
+   ],
+   "desc_b": [
+    "Amount of crop produced per unit area.",
+    "Amount of crops produced per unit area."
+   ],
+   "same": true,
+   "reason": "Crop yields and crop yield refer to the same concept, with the former being the plural and the latter the singular form."
+  },
+  {
+   "entity": "sheep flock",
+   "a": "sheep flock",
+   "b": "sheep flocks",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Livestock population in New Zealand.",
+    "Livestock population in Australia."
+   ],
+   "desc_b": [
+    "Number of sheep in major exporting nations."
+   ],
+   "same": true,
+   "reason": "Both refer to collections of sheep, with 'flock' and 'flocks' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "exchange rate",
+   "a": "exchange rate",
+   "b": "exchange rates",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of Australian currency relative to others.",
+    "Exchange rate affecting competitiveness of exports."
+   ],
+   "desc_b": [
+    "Projected increases affecting Australian hardwood woodchip exports."
+   ],
+   "same": true,
+   "reason": "Exchange rate and exchange rates refer to the same concept in this context, with the latter being the plural form."
+  },
+  {
+   "entity": "fruit",
+   "a": "fruit",
+   "b": "Fruits",
+   "method": "plural",
+   "mentions_b": 4,
+   "desc_a": [
+    "Agricultural product.",
+    "Category of horticulture products including table and dried grapes."
+   ],
+   "desc_b": [
+    "Fruit products and dishes.",
+    "Category of horticultural products including oranges, mandarins, and other fruit types."
+   ],
+   "same": true,
+   "reason": "Both 'fruit' and 'fruits' refer to the same category of horticultural products."
+  },
+  {
+   "entity": "production outcome",
+   "a": "production outcomes",
+   "b": "production outcome",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Measured results of agricultural production.",
+    "Measured quantity of agricultural production."
+   ],
+   "desc_b": [
+    "Agricultural production results affected by climatic conditions."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the results or measurements of agricultural production, with minor differences in phrasing that do not indicate distinct concepts."
+  },
+  {
+   "entity": "macadamia",
+   "a": "Macadamia",
+   "b": "Macadamias",
+   "method": "plural",
+   "mentions_b": 18,
+   "desc_a": [
+    "Nut crop.",
+    "Tree nuts with average demand."
+   ],
+   "desc_b": [
+    "Nut crop.",
+    "Export-focused horticulture product."
+   ],
+   "same": true,
+   "reason": "Macadamia and Macadamias refer to the same nut crop, with slight variation in pluralization."
+  },
+  {
+   "entity": "table grape",
+   "a": "Table grapes",
+   "b": "Table Grape",
+   "method": "plural",
+   "mentions_b": 11,
+   "desc_a": [
+    "Fruit crop.",
+    "Fruit with average demand."
+   ],
+   "desc_b": [
+    "Fruit crop.",
+    "Fruit crop exported to international markets."
+   ],
+   "same": true,
+   "reason": "Table grapes and Table Grape refer to the same fruit crop, with minor differences in pluralization and additional context in descriptions."
+  },
+  {
+   "entity": "tariff",
+   "a": "tariffs",
+   "b": "tariff",
+   "method": "plural",
+   "mentions_b": 19,
+   "desc_a": [
+    "Trade policies affecting US prices for paper and packaging.",
+    "Import tariffs imposed by the US government."
+   ],
+   "desc_b": [
+    "Trade restriction on Brazilian beef.",
+    "Trade policy affecting beef exports."
+   ],
+   "same": true,
+   "reason": "Both forms refer to trade restrictions or duties imposed by a government on imported goods."
+  },
+  {
+   "entity": "milk price",
+   "a": "milk prices",
+   "b": "milk price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Price of milk in the market.",
+    "Average farmgate milk prices in Australia."
+   ],
+   "desc_b": [
+    "Average annual Australian farmgate milk price.",
+    "Real annual farmgate milk price."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of milk, with slight variations in specificity and context, but they represent the same real-world concept."
+  },
+  {
+   "entity": "mandarin",
+   "a": "Mandarins",
+   "b": "mandarin",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Citrus fruit.",
+    "Fruits exported to India under ECTA."
+   ],
+   "desc_b": [
+    "A type of citrus fruit.",
+    "Citrus fruit crop exported to international markets."
+   ],
+   "same": true,
+   "reason": "Both refer to the same citrus fruit, with only capitalization differing."
+  },
+  {
+   "entity": "global supply",
+   "a": "global supply",
+   "b": "global supplies",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Total supply of agricultural commodities worldwide.",
+    "Supply of horticultural products globally."
+   ],
+   "desc_b": [
+    "Availability of natural gas globally.",
+    "Supply levels of wheat globally."
+   ],
+   "same": false,
+   "reason": "Form A refers to the total supply of agricultural commodities, while Form B refers to availability of natural gas and supply levels of wheat, which are different domains."
+  },
+  {
+   "entity": "agricultural commodity",
+   "a": "agricultural commodities",
+   "b": "agricultural commodity",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Crops and livestock products produced in Australia.",
+    "General term for crops, livestock products and agricultural products."
+   ],
+   "desc_b": [
+    "General term for crops, livestock products, or agricultural products."
+   ],
+   "same": true,
+   "reason": "Agricultural commodity is the singular form of agricultural commodities, referring to the same category of products."
+  },
+  {
+   "entity": "general security water allocation",
+   "a": "general security water allocations",
+   "b": "general security water allocation",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Water allocations for agricultural use.",
+    "Water availability for agricultural use in Murrumbidgee."
+   ],
+   "desc_b": [
+    "Water allocation per share in the Murrumbidgee region."
+   ],
+   "same": true,
+   "reason": "Both refer to water allocations under the general security category, with minor differences in phrasing that do not change the underlying concept."
+  },
+  {
+   "entity": "usda",
+   "a": "USDA",
+   "b": "United States Department of Agriculture",
+   "method": "alias",
+   "mentions_b": 13,
+   "desc_a": [
+    "United States Department of Agriculture, source of data.",
+    "United States Department of Agriculture."
+   ],
+   "desc_b": [
+    "US government agency for agricultural policy.",
+    "US government agency for agricultural and food policy."
+   ],
+   "same": true,
+   "reason": "USDA is the standard abbreviation for United States Department of Agriculture."
+  },
+  {
+   "entity": "advanced economy",
+   "a": "Advanced economies",
+   "b": "advanced economy",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Group of economically developed countries.",
+    "Economies with high levels of industrialization and development."
+   ],
+   "desc_b": [
+    "Economies with high levels of industrialization and income."
+   ],
+   "same": true,
+   "reason": "Both refer to economically developed countries with high levels of industrialization and development."
+  },
+  {
+   "entity": "australian sorghum price",
+   "a": "Australian sorghum price",
+   "b": "Australian sorghum prices",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Average price of Australian sorghum (Brisbane sorghum).",
+    "Average price of sorghum in Australia."
+   ],
+   "desc_b": [
+    "Price of sorghum exported by Australia."
+   ],
+   "same": false,
+   "reason": "Form A refers to the average price of Australian sorghum, while Form B refers to the price of exported sorghum, which may differ."
+  },
+  {
+   "entity": "almond",
+   "a": "Almonds",
+   "b": "Almond",
+   "method": "plural",
+   "mentions_b": 16,
+   "desc_a": [
+    "Nut crop.",
+    "Crop used in horticulture."
+   ],
+   "desc_b": [
+    "Nut product.",
+    "Type of nut exported by Australia."
+   ],
+   "same": true,
+   "reason": "Almonds and Almond refer to the same nut crop, with slight variation in phrasing."
+  },
+  {
+   "entity": "orange",
+   "a": "Oranges",
+   "b": "Orange",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Citrus fruit.",
+    "Fruits exported to India under ECTA."
+   ],
+   "desc_b": [
+    "Citrus fruit crop exported to international markets.",
+    "Fruit crop."
+   ],
+   "same": true,
+   "reason": "Both refer to the citrus fruit, with 'Oranges' and 'Orange' being singular/plural forms of the same thing."
+  },
+  {
+   "entity": "beef export price",
+   "a": "beef export prices",
+   "b": "beef export price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Prices for exported beef.",
+    "Prices of beef exports."
+   ],
+   "desc_b": [
+    "Price of beef exported annually.",
+    "Average annual beef export price."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of beef exports, with Form A being plural and Form B singular, but they represent the same real-world concept."
+  },
+  {
+   "entity": "carcase weight",
+   "a": "carcase weight",
+   "b": "carcase weights",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Weight of livestock measured after slaughter.",
+    "Weight of cattle carcasses after slaughter."
+   ],
+   "desc_b": [
+    "Weight of cattle carcasses after slaughter.",
+    "Weight of sheep carcasses, affecting meat production value."
+   ],
+   "same": true,
+   "reason": "Carcase weight and carcase weights refer to the same concept, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "export",
+   "a": "exports",
+   "b": "export",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of agricultural products exported.",
+    "Value of goods and services exported by agriculture."
+   ],
+   "desc_b": [
+    "Percentage of agricultural production exported."
+   ],
+   "same": true,
+   "reason": "Exports and export refer to the same concept of agricultural products being sent out of the country, with the difference being singular vs. plural form."
+  },
+  {
+   "entity": "winter crop",
+   "a": "winter crops",
+   "b": "winter crop",
+   "method": "plural",
+   "mentions_b": 16,
+   "desc_a": [
+    "Crops grown during the winter season.",
+    "Crops grown during the winter season in Victoria."
+   ],
+   "desc_b": [
+    "A type of crop grown in Australia during the winter season.",
+    "A crop grown during the winter season in Australia."
+   ],
+   "same": true,
+   "reason": "Winter crops and winter crop refer to the same category of agricultural produce grown during the winter season."
+  },
+  {
+   "entity": "winter crop yield",
+   "a": "Winter crop yields",
+   "b": "winter crop yield",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Forecasted yield of winter crops in 2024–25.",
+    "Yield of winter crops in South Australia."
+   ],
+   "desc_b": [
+    "Yield of winter crops in New South Wales.",
+    "Yield of winter crops per hectare."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the yield of winter crops, with minor differences in scope and detail that do not indicate distinct real-world entities."
+  },
+  {
+   "entity": "canola export volume",
+   "a": "canola export volumes",
+   "b": "canola export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of canola exported.",
+    "Volume of canola exported by Australia."
+   ],
+   "desc_b": [
+    "Volume of canola exported."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the volume of canola exported, with only a plural/singular difference in 'volumes' vs 'volume', which is contextually insignificant."
+  },
+  {
+   "entity": "barley export volume",
+   "a": "barley export volumes",
+   "b": "barley export volume",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Volume of barley exported.",
+    "Volume of barley exported from Australia."
+   ],
+   "desc_b": [
+    "Volume of barley exported."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of barley exported, with 'volumes' and 'volume' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "caribbean region",
+   "a": "Caribbean region",
+   "b": "Caribbean regions",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Region in the Caribbean Sea.",
+    "A region in the Caribbean with elevated rainfall probability."
+   ],
+   "desc_b": [
+    "Region with elevated probability of above average rainfall."
+   ],
+   "same": true,
+   "reason": "Caribbean regions is a plural form of Caribbean region, referring to the same general geographic area."
+  },
+  {
+   "entity": "water allocation",
+   "a": "water allocations",
+   "b": "water allocation",
+   "method": "plural",
+   "mentions_b": 8,
+   "desc_a": [
+    "Amount of water allocated for agricultural use.",
+    "Amount of water allocated to crops in specific areas."
+   ],
+   "desc_b": [
+    "Water allocated for agricultural use.",
+    "Volume of water allocated for agricultural use."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the same concept of water assigned for agricultural use, with 'allocations' being the plural of 'allocation'."
+  },
+  {
+   "entity": "horticulture export value",
+   "a": "Horticulture export values",
+   "b": "horticulture export value",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Value of horticulture exports.",
+    "Nominal value of horticulture exports."
+   ],
+   "desc_b": [
+    "Value of horticulture exports.",
+    "Total value of horticultural products exported from Australia."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the value of horticulture exports, with minor differences in phrasing that do not change the underlying concept."
+  },
+  {
+   "entity": "price",
+   "a": "prices",
+   "b": "Price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Market prices for sheep.",
+    "Market prices for livestock products."
+   ],
+   "desc_b": [
+    "Monetary value per unit of agricultural commodities.",
+    "Measured economic value per unit of commodity."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of agricultural products, with 'prices' being the plural form of 'price'."
+  },
+  {
+   "entity": "government policy",
+   "a": "government policy",
+   "b": "government policies",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Changes in government policy affecting beef exports."
+   ],
+   "desc_b": [
+    "Regulations affecting sugar production and ethanol production."
+   ],
+   "same": false,
+   "reason": "Form A refers to a singular policy, while Form B refers to multiple policies, and they affect different agricultural sectors."
+  },
+  {
+   "entity": "live sheep export",
+   "a": "live sheep exports",
+   "b": "live sheep export",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Value of live sheep exported from Australia.",
+    "Value of live sheep exported."
+   ],
+   "desc_b": [
+    "Live sheep exported from Australia.",
+    "Live sheep exported by sea from Australia."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the export of live sheep, with minor differences in phrasing that do not change the underlying concept."
+  },
+  {
+   "entity": "white grape variety",
+   "a": "white grape varieties",
+   "b": "white grape variety",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Grapes used for white wine production in warm inland regions.",
+    "White grape varieties grown in warm inland regions."
+   ],
+   "desc_b": [
+    "Type of grape used for white wine production."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with Form A being the plural of Form B."
+  },
+  {
+   "entity": "warm inland region",
+   "a": "warm inland regions",
+   "b": "warm inland region",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Regions in Australia with warm climates suitable for grape growing.",
+    "Regions in Australia including Riverland, Riverina, and Murray–Darling Swan Hill."
+   ],
+   "desc_b": [
+    "Region in Australia known for producing red grape varieties.",
+    "Region with warm climate and inland location for grape production."
+   ],
+   "same": true,
+   "reason": "Both refer to warm, inland areas in Australia suitable for grape production, with only a singular/plural difference."
+  },
+  {
+   "entity": "water price",
+   "a": "water prices",
+   "b": "water price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Cost of water for agricultural use.",
+    "Cost of water used in agricultural production."
+   ],
+   "desc_b": [
+    "Measured economic quantity representing the price of water.",
+    "Price per megalitre for water allocation."
+   ],
+   "same": true,
+   "reason": "Both refer to the cost or price of water, with 'water prices' being the plural form of 'water price'."
+  },
+  {
+   "entity": "soil moisture profile",
+   "a": "soil moisture profiles",
+   "b": "soil moisture profile",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Levels of moisture in the soil.",
+    "Measure of moisture content in the soil at different depths."
+   ],
+   "desc_b": [
+    "Moisture content of soil."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with Form A being the plural of Form B."
+  },
+  {
+   "entity": "us soybean",
+   "a": "US soybeans",
+   "b": "US soybean",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Soybean crop produced in the United States.",
+    "Agricultural product exported by the United States."
+   ],
+   "desc_b": [
+    "Soybean produced in the United States."
+   ],
+   "same": true,
+   "reason": "US soybeans and US soybean refer to the same agricultural product, with the only difference being singular vs. plural form."
+  },
+  {
+   "entity": "farm business entity",
+   "a": "Farm business entities",
+   "b": "farm business entity",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Entities that borrow or lease for agricultural activities.",
+    "Businesses engaged in agricultural activities."
+   ],
+   "desc_b": [
+    "A business entity involved in agricultural activities.",
+    "Business entities involved in farming activities."
+   ],
+   "same": true,
+   "reason": "Both refer to business entities involved in agricultural or farming activities, with only minor differences in phrasing and plurality."
+  },
+  {
+   "entity": "livestock and livestock product",
+   "a": "livestock and livestock products",
+   "b": "livestock and livestock product",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Livestock and their derived products.",
+    "Products from cattle and sheep slaughter."
+   ],
+   "desc_b": [
+    "Products derived from livestock."
+   ],
+   "same": true,
+   "reason": "Both forms refer to products derived from livestock, with minor pluralization differences that do not change the meaning."
+  },
+  {
+   "entity": "frost",
+   "a": "frost",
+   "b": "frosts",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Weather event affecting olive production.",
+    "Threat to crop yield during flowering and growth stage."
+   ],
+   "desc_b": [
+    "Frost events that limited yield potential in South Australia."
+   ],
+   "same": true,
+   "reason": "Frost and frosts refer to the same weather phenomenon, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "exportable supply",
+   "a": "exportable supply",
+   "b": "exportable supplies",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Amount of wheat available for export.",
+    "Amount of commodities available for export."
+   ],
+   "desc_b": [
+    "Amount of barley available for export."
+   ],
+   "same": true,
+   "reason": "Exportable supply and exportable supplies refer to the same concept, with 'supply' and 'supplies' being singular/plural variations of the same thing."
+  },
+  {
+   "entity": "el niño event",
+   "a": "El Niño event",
+   "b": "El Niño events",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Climate event established in 2026, associated with drier and hotter conditions.",
+    "Late forming El Niño event in 2023–24."
+   ],
+   "desc_b": [
+    "Climate phenomenon associated with extreme heat and increased fire risk."
+   ],
+   "same": true,
+   "reason": "El Niño event and El Niño events refer to the same climate phenomenon, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "australian wheat export volume",
+   "a": "Australian wheat export volumes",
+   "b": "Australian wheat export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of wheat exported from Australia.",
+    "Volume of Australian wheat exports."
+   ],
+   "desc_b": [
+    "Volume of wheat exported by Australia."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the total amount of wheat exported from Australia, with only minor differences in phrasing."
+  },
+  {
+   "entity": "farm debt mediation",
+   "a": "Farm debt mediation",
+   "b": "farm debt mediations",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "New instances of loans and leases under mediation in agriculture."
+   ],
+   "desc_b": [
+    "Incidents of debt mediations in the agricultural sector."
+   ],
+   "same": true,
+   "reason": "Both refer to the process of mediating farm debt, with 'mediation' and 'mediations' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "whole milk powder",
+   "a": "whole milk powder",
+   "b": "whole milk powders",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Dairy product made from whole milk.",
+    "Dairy product exported by Australia."
+   ],
+   "desc_b": [
+    "Dried milk product."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same dairy product."
+  },
+  {
+   "entity": "maximum temperature",
+   "a": "maximum temperatures",
+   "b": "maximum temperature",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Highest temperatures recorded during spring.",
+    "Measure of highest temperatures recorded."
+   ],
+   "desc_b": [
+    "Highest temperature recorded in a period."
+   ],
+   "same": true,
+   "reason": "Both refer to the highest temperature recorded, with Form A being the plural and Form B the singular."
+  },
+  {
+   "entity": "minimum temperature",
+   "a": "minimum temperatures",
+   "b": "minimum temperature",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Lowest temperatures recorded during spring.",
+    "Measure of lowest temperatures recorded."
+   ],
+   "desc_b": [
+    "Lowest temperature recorded in a period."
+   ],
+   "same": true,
+   "reason": "Both refer to the lowest temperature measurements, with Form A being the plural and Form B the singular."
+  },
+  {
+   "entity": "australian farmgate milk price",
+   "a": "Australian farmgate milk price",
+   "b": "Australian farmgate milk prices",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Price of milk at the farm gate in Australia.",
+    "Average annual price of milk at the farm gate in Australia."
+   ],
+   "desc_b": [
+    "Prices at which milk is sold by Australian farmers.",
+    "Prices of milk at the farm gate in Australia."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with Form B being the plural of Form A."
+  },
+  {
+   "entity": "cattle herd",
+   "a": "cattle herd",
+   "b": "cattle herds",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Livestock population of cattle.",
+    "Number of cattle in the population."
+   ],
+   "desc_b": [
+    "Livestock used for meat and dairy production."
+   ],
+   "same": false,
+   "reason": "Form A refers to a singular cattle population, while Form B refers to multiple cattle groups used for production."
+  },
+  {
+   "entity": "cattle saleyard price",
+   "a": "cattle saleyard prices",
+   "b": "cattle saleyard price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Average prices for cattle sold at saleyards.",
+    "Prices of cattle at saleyards in Australia."
+   ],
+   "desc_b": [
+    "Average price per kilogram for cattle sold at saleyards."
+   ],
+   "same": true,
+   "reason": "Both refer to the pricing of cattle at saleyards, with Form A being plural and Form B singular, but they represent the same real-world concept."
+  },
+  {
+   "entity": "biofuel",
+   "a": "Biofuels",
+   "b": "biofuel",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Fuel produced from organic materials.",
+    "Fuel produced from biological materials, including corn."
+   ],
+   "desc_b": [
+    "Fuel derived from organic materials."
+   ],
+   "same": true,
+   "reason": "Biofuels and biofuel are singular/plural forms of the same concept."
+  },
+  {
+   "entity": "global market",
+   "a": "global markets",
+   "b": "global market",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "International trade environment affected by tariffs.",
+    "International markets for Australian lamb."
+   ],
+   "desc_b": [
+    "International market for Australian barley.",
+    "International market for wine consumption."
+   ],
+   "same": true,
+   "reason": "Both refer to international trade or commerce on a global scale."
+  },
+  {
+   "entity": "trade deal",
+   "a": "trade deals",
+   "b": "trade deal",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Potential agreements to reduce trade tensions."
+   ],
+   "desc_b": [
+    "Trade agreement between Vietnam and the US removing import tariffs on US cotton."
+   ],
+   "same": true,
+   "reason": "Both refer to agreements related to trade, with 'trade deals' being the plural form of 'trade deal'."
+  },
+  {
+   "entity": "broadacre farm profit",
+   "a": "broadacre farm profits",
+   "b": "broadacre farm profit",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Projected farm profits for broadacre farming, presented as percentile outcomes.",
+    "Annual average profits of broadacre farms in Australia."
+   ],
+   "desc_b": [
+    "Average annual profit for broadacre farms."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept of profits from broadacre farming, with Form A being a plural or more detailed version of Form B."
+  },
+  {
+   "entity": "citrus fruit",
+   "a": "citrus fruits",
+   "b": "citrus fruit",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "A type of horticultural crop.",
+    "Export-focused horticulture product."
+   ],
+   "desc_b": [
+    "Includes oranges and mandarins."
+   ],
+   "same": true,
+   "reason": "Citrus fruits and citrus fruit refer to the same category of produce, with the only difference being singular vs. plural form."
+  },
+  {
+   "entity": "milk production value",
+   "a": "milk production value",
+   "b": "milk production values",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of milk production in nominal terms.",
+    "Value of milk production in Australia."
+   ],
+   "desc_b": [
+    "Values of milk production."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of milk production value."
+  },
+  {
+   "entity": "conflict",
+   "a": "conflict",
+   "b": "conflicts",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Ongoing conflict in Ukraine.",
+    "Event that disrupted transport and impacted the food service sector."
+   ],
+   "desc_b": [
+    "Wars or disputes causing trade disruption."
+   ],
+   "same": true,
+   "reason": "Conflict and conflicts refer to the same real-world concept, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "winter crop harvest",
+   "a": "winter crop harvest",
+   "b": "winter crop harvests",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Harvesting of winter crops in Western Australia.",
+    "Seasonal event of winter crop harvest in 2025."
+   ],
+   "desc_b": [
+    "Harvesting of winter crops."
+   ],
+   "same": true,
+   "reason": "Winter crop harvest and winter crop harvests refer to the same real-world event, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "agricultural zone",
+   "a": "agricultural zone",
+   "b": "agricultural zones",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Defined area across Australia with agricultural activity.",
+    "Defined area in Australia with agricultural activity."
+   ],
+   "desc_b": [
+    "Geographic areas with agricultural activity in Australia.",
+    "Geographic regions used for agricultural analysis."
+   ],
+   "same": true,
+   "reason": "Agricultural zone and agricultural zones refer to the same concept, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "wine export value",
+   "a": "wine export values",
+   "b": "wine export value",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Monetary value of wine exports to China.",
+    "Value of exports of wine."
+   ],
+   "desc_b": [
+    "Monetary value of wine exports.",
+    "Value of wine exports in real terms."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the monetary value of wine exports, with minor differences in specificity that do not indicate distinct real-world entities."
+  },
+  {
+   "entity": "household disposable income",
+   "a": "household disposable income",
+   "b": "household disposable incomes",
+   "method": "plural",
+   "mentions_b": 6,
+   "desc_a": [
+    "Income available to households after taxes and other deductions.",
+    "Income available to households after taxes."
+   ],
+   "desc_b": [
+    "Income levels of households in export markets.",
+    "Income levels of households in major markets."
+   ],
+   "same": false,
+   "reason": "Form A refers to income available to households after taxes, while Form B refers to income levels in specific markets, indicating different contexts."
+  },
+  {
+   "entity": "average yield",
+   "a": "average yields",
+   "b": "average yield",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Average yield of crops.",
+    "Yield levels of crops."
+   ],
+   "desc_b": [
+    "Amount of wheat produced per hectare.",
+    "Average yield of sorghum per hectare."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the average amount of agricultural produce per unit area, with slight variations in specificity."
+  },
+  {
+   "entity": "wool export volume",
+   "a": "wool export volumes",
+   "b": "wool export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of wool exported from Australia.",
+    "Volume of wool exported by Australia."
+   ],
+   "desc_b": [
+    "Volume of wool exported."
+   ],
+   "same": true,
+   "reason": "Both refer to the quantity of wool exported, with 'volumes' and 'volume' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "fodder cost",
+   "a": "fodder costs",
+   "b": "fodder cost",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Costs associated with feeding livestock."
+   ],
+   "desc_b": [
+    "Cost of fodder for dairy farms."
+   ],
+   "same": true,
+   "reason": "Fodder costs and fodder cost refer to the same concept of expenses related to fodder, with the difference being singular vs. plural."
+  },
+  {
+   "entity": "climate-adjusted wheat yield",
+   "a": "climate-adjusted wheat yields",
+   "b": "climate-adjusted wheat yield",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Average annual growth in wheat yields adjusted for climate conditions.",
+    "Measure of wheat yields adjusted for climate conditions."
+   ],
+   "desc_b": [
+    "Wheat yield adjusted for climate factors."
+   ],
+   "same": true,
+   "reason": "Both refer to wheat yields adjusted for climate factors, with only singular/plural difference."
+  },
+  {
+   "entity": "australian chickpea",
+   "a": "Australian chickpea",
+   "b": "Australian chickpeas",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Chickpeas grown in Australia."
+   ],
+   "desc_b": [
+    "Chickpeas produced in Australia."
+   ],
+   "same": true,
+   "reason": "Both refer to chickpeas grown or produced in Australia, with only a singular/plural difference."
+  },
+  {
+   "entity": "horticulture industry",
+   "a": "Horticulture industries",
+   "b": "horticulture industry",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Agricultural sector involving the cultivation of fruits, vegetables, and ornamental plants."
+   ],
+   "desc_b": [
+    "Sector involving the cultivation of horticultural crops."
+   ],
+   "same": true,
+   "reason": "Both refer to the same sector involving the cultivation of horticultural crops, with only minor differences in phrasing and plurality."
+  },
+  {
+   "entity": "irrigated crop",
+   "a": "irrigated crops",
+   "b": "irrigated crop",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Crops grown using irrigation.",
+    "Crops grown with irrigation."
+   ],
+   "desc_b": [
+    "Crops grown with irrigation."
+   ],
+   "same": true,
+   "reason": "Irrigated crops and irrigated crop refer to the same concept, with the former being the plural and the latter the singular form."
+  },
+  {
+   "entity": "heavy steer",
+   "a": "heavy steer",
+   "b": "heavy steers",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Cattle used for beef production.",
+    "Type of cattle used in the beef industry."
+   ],
+   "desc_b": [
+    "Cattle that are heavy and ready for slaughter.",
+    "Cattle for meat processing."
+   ],
+   "same": true,
+   "reason": "Both refer to cattle used for beef production, with 'steers' being the plural of 'steer' and contextually equivalent in this usage."
+  },
+  {
+   "entity": "world cotton price",
+   "a": "world cotton prices",
+   "b": "world cotton price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Global prices for cotton.",
+    "Prices of cotton on the global market."
+   ],
+   "desc_b": [
+    "Average price of cotton on the global market."
+   ],
+   "same": true,
+   "reason": "Both refer to the global price of cotton, with 'world cotton prices' and 'world cotton price' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "lamb slaughter",
+   "a": "lamb slaughter",
+   "b": "lamb slaughters",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Number of lambs slaughtered for meat.",
+    "Number of lambs slaughtered in a given period."
+   ],
+   "desc_b": [
+    "Volume of lamb slaughters in the livestock industry."
+   ],
+   "same": true,
+   "reason": "Both refer to the act of slaughtering lambs, with 'slaughter' and 'slaughters' being singular and plural forms of the same concept."
+  },
+  {
+   "entity": "premium beer",
+   "a": "premium beer",
+   "b": "premium beers",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Type of beer with higher malt content."
+   ],
+   "desc_b": [
+    "Beers with higher malt content."
+   ],
+   "same": true,
+   "reason": "Premium beer and premium beers refer to the same category of beer with higher malt content, with the only difference being singular vs. plural."
+  },
+  {
+   "entity": "cotton export volume",
+   "a": "cotton export volumes",
+   "b": "cotton export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of cotton exported by Australia.",
+    "Volume of cotton exported from Australia."
+   ],
+   "desc_b": [
+    "Volume of cotton exported from Australia."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with 'volumes' being the plural of 'volume'."
+  },
+  {
+   "entity": "heatwave",
+   "a": "heatwaves",
+   "b": "heatwave",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Heatwaves in Western Europe since May 2026.",
+    "Extreme heat events recorded across parts of Australia."
+   ],
+   "desc_b": [
+    "Period of high temperatures affecting vineyards."
+   ],
+   "same": true,
+   "reason": "Heatwave and heatwaves refer to the same phenomenon, with the former being the singular and the latter the plural form."
+  },
+  {
+   "entity": "input",
+   "a": "inputs",
+   "b": "INPUT",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Resources used in agricultural production."
+   ],
+   "desc_b": [
+    "Aggregate input index at the farm level."
+   ],
+   "same": false,
+   "reason": "Form A refers to general resources used in production, while Form B refers to a specific aggregate index."
+  },
+  {
+   "entity": "agricultural export value",
+   "a": "agricultural export value",
+   "b": "agricultural export values",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Monetary value of agricultural exports.",
+    "Total value of agricultural exports from Australia."
+   ],
+   "desc_b": [
+    "Total value of agricultural exports.",
+    "Measured value of agricultural exports."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of agricultural export value."
+  },
+  {
+   "entity": "trade disruption",
+   "a": "trade disruptions",
+   "b": "trade disruption",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Disruptions in international trade.",
+    "Disruptions in global trade affecting economic conditions."
+   ],
+   "desc_b": [
+    "Disruption in trade due to Middle East conflict.",
+    "Event of trade disruption occurring."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the same concept of interruptions or disturbances in trade activities."
+  },
+  {
+   "entity": "lamb and sheep saleyard price",
+   "a": "lamb and sheep saleyard prices",
+   "b": "lamb and sheep saleyard price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Prices of lamb and sheep in saleyards.",
+    "Prices of lamb and sheep at saleyards."
+   ],
+   "desc_b": [
+    "Average annual lamb and sheep saleyard price."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the prices of lamb and sheep in saleyards, with Form B being a singular version of the same concept."
+  },
+  {
+   "entity": "broadacre farm business profit",
+   "a": "broadacre farm business profit",
+   "b": "Broadacre farm business profits",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Average profit of broadacre farms in Australia.",
+    "Profit levels of broadacre farms across Australian states and territories."
+   ],
+   "desc_b": [
+    "Profit levels of broadacre farms.",
+    "Profits of broadacre farms influenced by climate conditions and prices."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the profits of broadacre farm businesses, with only minor differences in phrasing and scope."
+  },
+  {
+   "entity": "livestock and livestock product value",
+   "a": "livestock and livestock product value",
+   "b": "livestock and livestock product values",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Value of livestock and livestock products.",
+    "Gross value of livestock and livestock products."
+   ],
+   "desc_b": [
+    "Annual value of livestock and livestock products.",
+    "Total value of livestock and livestock products."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the value of livestock and livestock products, with minor differences in phrasing that do not change the underlying concept."
+  },
+  {
+   "entity": "live sheep export volume",
+   "a": "live sheep export volumes",
+   "b": "live sheep export volume",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Volume of live sheep exported.",
+    "Volume of live sheep exported by sea."
+   ],
+   "desc_b": [
+    "Volume of live sheep exports from Australia.",
+    "Number of live sheep exported."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the quantity of live sheep exported, with minor differences in phrasing that do not change the underlying concept."
+  },
+  {
+   "entity": "sheep meat export",
+   "a": "sheep meat exports",
+   "b": "sheep meat export",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of sheep meat exported.",
+    "Value of sheep meat exported."
+   ],
+   "desc_b": [
+    "Volume of sheep meat exported."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with 'exports' and 'export' being singular/plural variations of the same thing."
+  },
+  {
+   "entity": "real cotton price",
+   "a": "real cotton prices",
+   "b": "real cotton price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Measured value of cotton prices adjusted for inflation.",
+    "Inflation-adjusted prices of cotton."
+   ],
+   "desc_b": [
+    "Price of cotton adjusted for inflation."
+   ],
+   "same": true,
+   "reason": "Both refer to the inflation-adjusted price of cotton, with only a singular/plural difference."
+  },
+  {
+   "entity": "dairy industry",
+   "a": "dairy industry",
+   "b": "dairy industries",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Industry group involved in dairy production.",
+    "Industry involved in milk production and related farming activities."
+   ],
+   "desc_b": [
+    "Milk and dairy products from Australian farming."
+   ],
+   "same": true,
+   "reason": "Dairy industry and dairy industries refer to the same sector involving milk production and related activities."
+  },
+  {
+   "entity": "crop export volume",
+   "a": "crop export volumes",
+   "b": "crop export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of crops exported.",
+    "Total volume of crop exports."
+   ],
+   "desc_b": [
+    "Volume of crops exported."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with Form A being the plural of Form B."
+  },
+  {
+   "entity": "canola yield",
+   "a": "canola yields",
+   "b": "canola yield",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Volume of canola produced per hectare.",
+    "Amount of canola produced per hectare."
+   ],
+   "desc_b": [
+    "Amount of canola produced per hectare.",
+    "Yield of canola in Victoria."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the amount of canola produced per hectare, with 'canola yields' being the plural form of 'canola yield'."
+  },
+  {
+   "entity": "canola export price",
+   "a": "canola export prices",
+   "b": "canola export price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Price of canola exports.",
+    "Price of canola exported from Australia."
+   ],
+   "desc_b": [
+    "Price of canola exported from Australia."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with 'prices' and 'price' being singular/plural variations of the same thing."
+  },
+  {
+   "entity": "domestic market",
+   "a": "domestic market",
+   "b": "domestic markets",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Australian wine market.",
+    "Market within Australia for pork and poultry meat."
+   ],
+   "desc_b": [
+    "Internal markets for sheep and lamb."
+   ],
+   "same": true,
+   "reason": "Both refer to internal markets within Australia, with 'domestic market' and 'domestic markets' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "red grape variety",
+   "a": "red grape varieties",
+   "b": "red grape variety",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Red grape varieties grown in warm inland regions.",
+    "Grape varieties used to produce red wine."
+   ],
+   "desc_b": [
+    "Grape varieties used to produce red wine.",
+    "Type of grape used for red wine production."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with Form A being the plural of Form B."
+  },
+  {
+   "entity": "red wine grape",
+   "a": "red wine grapes",
+   "b": "red wine grape",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Red wine grapes used in winemaking.",
+    "Grapes used for red wine production."
+   ],
+   "desc_b": [
+    "Red wine grape used for producing red wine."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world thing, as 'red wine grapes' is the plural form of 'red wine grape'."
+  },
+  {
+   "entity": "white wine grape",
+   "a": "white wine grapes",
+   "b": "white wine grape",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "White wine grapes used in winemaking.",
+    "Grapes used to produce white wine."
+   ],
+   "desc_b": [
+    "White wine grape used for producing white wine."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world thing, as 'white wine grapes' is the plural form of 'white wine grape'."
+  },
+  {
+   "entity": "frost event",
+   "a": "frost events",
+   "b": "frost event",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Widespread frost occurrences in September 2024.",
+    "Frost events that impacted crop yields in South Australia."
+   ],
+   "desc_b": [
+    "Potential frost event that could impact crop yields."
+   ],
+   "same": true,
+   "reason": "Frost event and frost events refer to the same real-world phenomenon, with the former being singular and the latter plural."
+  },
+  {
+   "entity": "real export value",
+   "a": "real export values",
+   "b": "real export value",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Value of exports adjusted for inflation.",
+    "Export values adjusted for inflation."
+   ],
+   "desc_b": [
+    "Monetary value of exports adjusted for inflation.",
+    "Inflation-adjusted value of canola exports."
+   ],
+   "same": true,
+   "reason": "Both forms refer to export values adjusted for inflation, with minor differences in phrasing that do not change the underlying concept."
+  },
+  {
+   "entity": "cotton export price",
+   "a": "cotton export price",
+   "b": "cotton export prices",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Price of cotton exported.",
+    "Average price of cotton exported from Australia."
+   ],
+   "desc_b": [
+    "Prices of cotton exports.",
+    "Value of cotton exports."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with 'price' and 'prices' being singular/plural variations of the same thing."
+  },
+  {
+   "entity": "sheep meat export price",
+   "a": "sheep meat export prices",
+   "b": "sheep meat export price",
+   "method": "plural",
+   "mentions_b": 4,
+   "desc_a": [
+    "Prices for sheep meat exports.",
+    "Average prices for sheep meat exports."
+   ],
+   "desc_b": [
+    "Price per kilogram of sheep meat exports.",
+    "Price of sheep meat exports."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of sheep meat exports, with 'price' and 'prices' being singular and plural forms of the same concept."
+  },
+  {
+   "entity": "geopolitical conflict",
+   "a": "geopolitical conflict",
+   "b": "geopolitical conflicts",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Conflicts affecting fuel supply and processor input costs.",
+    "International conflicts affecting fuel supply and input costs."
+   ],
+   "desc_b": [
+    "Potential disruptions to global energy supplies.",
+    "Conflicts in the Middle East and Ukraine affecting global stability."
+   ],
+   "same": true,
+   "reason": "Both forms refer to geopolitical conflicts, with Form B being the plural of Form A, which is sufficient for them to represent the same real-world concept in this context."
+  },
+  {
+   "entity": "canola export value",
+   "a": "canola export values",
+   "b": "canola export value",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Monetary value of canola exports.",
+    "Value of exports of canola."
+   ],
+   "desc_b": [
+    "Value of canola exports.",
+    "Monetary value of canola exports from Australia."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the monetary value of canola exports, with only minor differences in phrasing."
+  },
+  {
+   "entity": "barley export value",
+   "a": "barley export values",
+   "b": "barley export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Monetary value of barley exports.",
+    "Value of exports of barley."
+   ],
+   "desc_b": [
+    "Value of barley exports."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of barley exports, with only minor differences in pluralization."
+  },
+  {
+   "entity": "sorghum export value",
+   "a": "sorghum export values",
+   "b": "sorghum export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Monetary value of sorghum exports.",
+    "The nominal export value of sorghum."
+   ],
+   "desc_b": [
+    "Value of sorghum exports."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of sorghum exports, with 'values' and 'value' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "chickpea export value",
+   "a": "chickpea export values",
+   "b": "chickpea export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Monetary value of chickpea exports."
+   ],
+   "desc_b": [
+    "Value of chickpea exports."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of chickpea exports, with 'values' and 'value' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "lentil export value",
+   "a": "lentil export values",
+   "b": "lentil export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Monetary value of lentil exports."
+   ],
+   "desc_b": [
+    "Value of lentil exports."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of lentil exports, with only a singular/plural difference in 'values' vs 'value'."
+  },
+  {
+   "entity": "capsicum",
+   "a": "capsicums",
+   "b": "capsicum",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Horticulture crop potentially affected by flooding.",
+    "Agricultural crop in the top ten by value in affected areas."
+   ],
+   "desc_b": [
+    "Crop affected by ToBRFV."
+   ],
+   "same": true,
+   "reason": "Capsicums and capsicum refer to the same plant, with capsicums being the plural form."
+  },
+  {
+   "entity": "australian capital territory",
+   "a": "ACT",
+   "b": "Australian Capital Territory",
+   "method": "alias",
+   "mentions_b": 2,
+   "desc_a": [
+    "Australian territory where Varroa mite has been detected.",
+    "Australian Capital Territory."
+   ],
+   "desc_b": [
+    "Territory included in New South Wales data.",
+    "Region included in New South Wales data."
+   ],
+   "same": true,
+   "reason": "ACT is the abbreviation for Australian Capital Territory, which is the same real-world entity."
+  },
+  {
+   "entity": "australian cotton price",
+   "a": "Australian cotton price",
+   "b": "Australian cotton prices",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Price of cotton in Australia.",
+    "Nominal price of Australian cotton measured by the Cotlook A Index."
+   ],
+   "desc_b": [
+    "Prices of cotton in Australia.",
+    "Price of cotton in Australia, measured at gin-gate returns."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with 'price' and 'prices' being singular/plural variations of the same thing."
+  },
+  {
+   "entity": "pesticide",
+   "a": "pesticide",
+   "b": "pesticides",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Chemical used to control pests in crops."
+   ],
+   "desc_b": [
+    "Chemicals used to control pests."
+   ],
+   "same": true,
+   "reason": "Pesticide and pesticides refer to the same category of chemicals used to control pests, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "revenue",
+   "a": "revenue",
+   "b": "revenues",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Income generated from sales of agricultural products.",
+    "Total income generated from farm activities."
+   ],
+   "desc_b": [
+    "Income generated from wine production."
+   ],
+   "same": true,
+   "reason": "Revenue and revenues are plural/singular forms of the same concept, referring to income generated from activities."
+  },
+  {
+   "entity": "australian beef export price",
+   "a": "Australian beef export prices",
+   "b": "Australian beef export price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Real export prices for Australian beef.",
+    "Real export prices of Australian beef."
+   ],
+   "desc_b": [
+    "Price of Australian beef exports measured in US 90CL CIF price converted to Australian cents per kilogram.",
+    "Real average annual beef export price measured in Australian cents per kilogram."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of Australian beef exports, with minor differences in phrasing and measurement details."
+  },
+  {
+   "entity": "australian export price",
+   "a": "Australian export prices",
+   "b": "Australian export price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Prices of Australian sheep meat exports.",
+    "Australian export prices likely to be supported by tightening global grain stocks, resilient demand for red meat, and the low Australian dollar."
+   ],
+   "desc_b": [
+    "Forecast rise in the Australian export price for agricultural commodities."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of Australian agricultural exports, with 'prices' and 'price' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "crop production value",
+   "a": "crop production value",
+   "b": "crop production values",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Total value of crop production.",
+    "Gross value of crop production."
+   ],
+   "desc_b": [
+    "Total value of crop production in Australia.",
+    "Value of crop production."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of crop production value."
+  },
+  {
+   "entity": "beef production volume",
+   "a": "beef production volume",
+   "b": "beef production volumes",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of beef produced in Australia."
+   ],
+   "desc_b": [
+    "Volume of beef produced."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same real-world concept of beef production volume."
+  },
+  {
+   "entity": "woodchip market",
+   "a": "woodchip market",
+   "b": "woodchip markets",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Global market for hardwood woodchips."
+   ],
+   "desc_b": [
+    "Global market for woodchip products."
+   ],
+   "same": true,
+   "reason": "Both refer to the global market for woodchip-related products, with 'woodchip market' and 'woodchip markets' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "random forest",
+   "a": "Random forests",
+   "b": "random forest",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Machine learning technique used in data analysis.",
+    "A machine learning method used for predictive modeling."
+   ],
+   "desc_b": [
+    "A machine learning method used for modeling."
+   ],
+   "same": true,
+   "reason": "Random forests and random forest refer to the same machine learning technique, with the former being the plural form of the latter."
+  },
+  {
+   "entity": "dry climate driver year",
+   "a": "dry climate driver year",
+   "b": "dry climate driver years",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Year characterized by drier than normal climate conditions.",
+    "A year characterized by drier than normal conditions."
+   ],
+   "desc_b": [
+    "Years characterised by below-average rainfall and unfavourable conditions for agricultural production."
+   ],
+   "same": true,
+   "reason": "Both forms refer to years with drier than normal conditions, with Form B being the plural of Form A."
+  },
+  {
+   "entity": "wet climate driver year",
+   "a": "wet climate driver year",
+   "b": "wet climate driver years",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Year characterized by wetter than normal climate conditions.",
+    "A year characterized by wetter than normal conditions."
+   ],
+   "desc_b": [
+    "Years characterised by above-average rainfall and favourable conditions for agricultural production."
+   ],
+   "same": true,
+   "reason": "Both refer to years with wetter than normal climate conditions, with Form B being the plural of Form A."
+  },
+  {
+   "entity": "australian canola price",
+   "a": "Australian canola prices",
+   "b": "Australian canola price",
+   "method": "plural",
+   "mentions_b": 5,
+   "desc_a": [
+    "Price level of canola in Australia.",
+    "Prices of Australian canola."
+   ],
+   "desc_b": [
+    "Real price of Australian canola exports.",
+    "Average price of Australian canola (Melbourne, port-delivered)."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of canola in Australia, with minor differences in specificity (e.g., exports, average, or port-delivered)."
+  },
+  {
+   "entity": "cotton export value",
+   "a": "cotton export values",
+   "b": "cotton export value",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Monetary value of cotton exports.",
+    "Value of cotton exported."
+   ],
+   "desc_b": [
+    "Value of cotton exported by Australia.",
+    "Value of cotton exports."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the monetary value of cotton exports, with only minor differences in phrasing."
+  },
+  {
+   "entity": "real disposable income",
+   "a": "real disposable income",
+   "b": "real disposable incomes",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Income available to Australian households after taxes.",
+    "Income available to households after taxes."
+   ],
+   "desc_b": [
+    "Real disposable incomes in Australia for 2025–26.",
+    "Income available to households after taxes and transfers."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of income available to households after taxes."
+  },
+  {
+   "entity": "woodchip",
+   "a": "woodchips",
+   "b": "woodchip",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Product derived from forestry activities."
+   ],
+   "desc_b": [
+    "Hardwood product used in various industries."
+   ],
+   "same": true,
+   "reason": "Woodchips and woodchip refer to the same product, with the difference being singular vs. plural form."
+  },
+  {
+   "entity": "protein meal",
+   "a": "protein meals",
+   "b": "protein meal",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Feed ingredients used in animal feed."
+   ],
+   "desc_b": [
+    "By-product of oilseed processing used in livestock feed."
+   ],
+   "same": true,
+   "reason": "Both refer to the same type of feed ingredient used in livestock feed, with 'protein meals' being the plural form of 'protein meal'."
+  },
+  {
+   "entity": "world beef price",
+   "a": "world beef prices",
+   "b": "world beef price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Global prices for beef.",
+    "Prices of beef globally."
+   ],
+   "desc_b": [
+    "Price of beef on the global market."
+   ],
+   "same": true,
+   "reason": "Both refer to the global price of beef, with 'prices' and 'price' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "national average broadacre farm business profit",
+   "a": "National average broadacre farm business profit",
+   "b": "National average broadacre farm business profits",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Profit level of broadacre farms across Australia.",
+    "Average profit for broadacre farm businesses across the nation."
+   ],
+   "desc_b": [
+    "Average profits for broadacre farm businesses across the nation."
+   ],
+   "same": true,
+   "reason": "The difference between 'profit' and 'profits' is singular vs. plural, which refers to the same real-world concept in this context."
+  },
+  {
+   "entity": "summer crop yield",
+   "a": "summer crop yields",
+   "b": "summer crop yield",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Yield of summer crops in Australia.",
+    "Yield of summer crops."
+   ],
+   "desc_b": [
+    "Yield of summer crops in New South Wales."
+   ],
+   "same": true,
+   "reason": "Both refer to the yield of summer crops, with Form A being plural and Form B singular, but they describe the same real-world concept."
+  },
+  {
+   "entity": "free trade agreement",
+   "a": "free trade agreements",
+   "b": "free trade agreement",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Agreements that provide market access advantages for Australian agricultural exporters.",
+    "Agreements that improve market access for Australian agricultural exports."
+   ],
+   "desc_b": [
+    "Trade agreement between Australia and Vietnam."
+   ],
+   "same": true,
+   "reason": "Both refer to the same type of international trade agreement, with Form A being the plural and Form B the singular."
+  },
+  {
+   "entity": "global soybean price",
+   "a": "global soybean price",
+   "b": "global soybean prices",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Price of soybeans on the global market."
+   ],
+   "desc_b": [
+    "Average price of soybeans worldwide."
+   ],
+   "same": true,
+   "reason": "Both refer to the price of soybeans on a global scale, with 'price' and 'prices' being singular/plural forms of the same concept."
+  },
+  {
+   "entity": "average carcase weight",
+   "a": "average carcase weight",
+   "b": "average carcase weights",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Weight of pigs and chickens at slaughter.",
+    "Average weight of the carcass of the animal."
+   ],
+   "desc_b": [
+    "Average weight of beef carcasses."
+   ],
+   "same": false,
+   "reason": "Form A refers to average carcase weight of pigs and chickens, while Form B refers specifically to average carcase weights of beef."
+  },
+  {
+   "entity": "australian sorghum export volume",
+   "a": "Australian sorghum export volume",
+   "b": "Australian sorghum export volumes",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of Australian sorghum exported."
+   ],
+   "desc_b": [
+    "Volume of sorghum exported from Australia."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of sorghum exported from Australia, with 'volume' and 'volumes' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "water allocation price",
+   "a": "water allocation prices",
+   "b": "water allocation price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Cost of water allocated to agricultural use.",
+    "Prices for the allocation of water to agricultural use."
+   ],
+   "desc_b": [
+    "Price per megalitre for water allocation.",
+    "Price of water allocation for irrigation."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the cost or price associated with water allocation, with minor differences in specificity (singular vs. plural) and context (agricultural use vs. irrigation)."
+  },
+  {
+   "entity": "trade agreement",
+   "a": "trade agreements",
+   "b": "trade agreement",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Agreements supporting Australian fruit exports to key markets."
+   ],
+   "desc_b": [
+    "New trade agreements between Indonesia, Vietnam, and the United States."
+   ],
+   "same": true,
+   "reason": "Both refer to trade agreements, with Form A being plural and Form B singular, but they are the same type of entity."
+  },
+  {
+   "entity": "barley yield",
+   "a": "barley yields",
+   "b": "barley yield",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Yield of barley in 2025–26.",
+    "Yield of barley per hectare."
+   ],
+   "desc_b": [
+    "Amount of barley produced per hectare.",
+    "Yield of barley in Victoria."
+   ],
+   "same": true,
+   "reason": "Both refer to the production of barley per unit area, with slight variations in phrasing."
+  },
+  {
+   "entity": "chicken",
+   "a": "chicken",
+   "b": "chickens",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Poultry product.",
+    "Poultry meat."
+   ],
+   "desc_b": [
+    "Livestock product."
+   ],
+   "same": true,
+   "reason": "Chicken and chickens refer to the same real-world thing, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "horticulture production value",
+   "a": "horticulture production values",
+   "b": "horticulture production value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Monetary value of horticulture production.",
+    "Total value of horticulture production in Australia."
+   ],
+   "desc_b": [
+    "Value of horticulture production."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of horticulture production, with 'values' and 'value' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "flood",
+   "a": "flood",
+   "b": "floods",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Climate event affecting agricultural productivity.",
+    "Weather event impacting cattle production."
+   ],
+   "desc_b": [
+    "Extreme weather events in the eastern states of Australia."
+   ],
+   "same": true,
+   "reason": "Flood and floods refer to the same type of climate/weather event, with the latter being the plural form of the former."
+  },
+  {
+   "entity": "canola price",
+   "a": "canola prices",
+   "b": "canola price",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Market price of canola.",
+    "Price of canola in Australian and international markets."
+   ],
+   "desc_b": [
+    "Price per tonne of canola.",
+    "Price of canola in the real-world market."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the price of canola, with minor differences in specificity that do not indicate distinct real-world entities."
+  },
+  {
+   "entity": "allocation price",
+   "a": "allocation prices",
+   "b": "allocation price",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Prices for water allocations.",
+    "Cost of water allocated for irrigation."
+   ],
+   "desc_b": [
+    "Price paid for water allocation rights."
+   ],
+   "same": true,
+   "reason": "Both refer to the price associated with water allocation rights, with only a singular/plural difference."
+  },
+  {
+   "entity": "live sheep export value",
+   "a": "live sheep export value",
+   "b": "live sheep export values",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Total value of live sheep exports.",
+    "Value of live sheep exports from Australia."
+   ],
+   "desc_b": [
+    "Value of live sheep exports."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of live sheep export value."
+  },
+  {
+   "entity": "canadian canola price",
+   "a": "Canadian canola price",
+   "b": "Canadian canola prices",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Price of canola in Canada."
+   ],
+   "desc_b": [
+    "Prices of Canadian canola globally."
+   ],
+   "same": false,
+   "reason": "Form A refers to the price of canola in Canada, while Form B refers to prices of Canadian canola globally, which are not the same."
+  },
+  {
+   "entity": "renewable volume obligation",
+   "a": "Renewable Volume Obligations",
+   "b": "Renewable Volume Obligation",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Policy driving increased demand for oilseeds.",
+    "US EPA policy driving demand for oilseeds."
+   ],
+   "desc_b": [
+    "Volume of biodiesel required to be blended under the RFS."
+   ],
+   "same": false,
+   "reason": "Form A refers to a policy driving demand for oilseeds, while Form B refers to a specific volume requirement under the RFS, which are related but distinct concepts."
+  },
+  {
+   "entity": "wheat export value",
+   "a": "wheat export values",
+   "b": "wheat export value",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Value of exports of wheat.",
+    "Value of wheat exports."
+   ],
+   "desc_b": [
+    "Value of wheat exports.",
+    "Total value of wheat exports."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the total monetary value of wheat exports, with only minor differences in phrasing."
+  },
+  {
+   "entity": "sugar export value",
+   "a": "sugar export values",
+   "b": "sugar export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of exports of sugar."
+   ],
+   "desc_b": [
+    "Value of sugar exports."
+   ],
+   "same": true,
+   "reason": "Both refer to the monetary value of sugar exports, with only minor syntactic differences."
+  },
+  {
+   "entity": "crop export value",
+   "a": "crop export values",
+   "b": "crop export value",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Total value of crop exports."
+   ],
+   "desc_b": [
+    "Value of crop exports."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same real-world concept, with 'values' and 'value' being singular/plural variations of the same thing."
+  },
+  {
+   "entity": "woollen garment",
+   "a": "woollen garment",
+   "b": "woollen garments",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Garments made from wool."
+   ],
+   "desc_b": [
+    "Clothing made from wool."
+   ],
+   "same": true,
+   "reason": "Both refer to clothing made from wool, with only a pluralization difference."
+  },
+  {
+   "entity": "sorghum export volume",
+   "a": "sorghum export volumes",
+   "b": "sorghum export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of sorghum exported from Australia.",
+    "Volume of sorghum exported."
+   ],
+   "desc_b": [
+    "Volume of sorghum exported."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of sorghum exported, with 'volumes' and 'volume' being singular/plural variations of the same concept."
+  },
+  {
+   "entity": "livestock industry",
+   "a": "livestock industries",
+   "b": "livestock industry",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Industries involving livestock production.",
+    "Agricultural industries focused on raising animals for products."
+   ],
+   "desc_b": [
+    "Sector in Australia affected by reduced pasture production."
+   ],
+   "same": true,
+   "reason": "Both refer to the broader concept of industries involved in livestock production, with Form A being plural and Form B singular."
+  },
+  {
+   "entity": "pulse value",
+   "a": "pulse value",
+   "b": "pulse values",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of pulse production."
+   ],
+   "desc_b": [
+    "Total value of pulse production."
+   ],
+   "same": true,
+   "reason": "Both refer to the value of pulse production, with 'values' being a plural form of 'value'."
+  },
+  {
+   "entity": "real wool price",
+   "a": "real wool price",
+   "b": "real wool prices",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Wool price adjusted for inflation."
+   ],
+   "desc_b": [
+    "Measured value of wool prices adjusted for inflation."
+   ],
+   "same": true,
+   "reason": "Both refer to wool prices adjusted for inflation, with 'real wool price' and 'real wool prices' being singular and plural forms of the same concept."
+  },
+  {
+   "entity": "structural adjustment",
+   "a": "structural adjustment",
+   "b": "structural adjustments",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Process of farm business closures and consolidation in agriculture.",
+    "Process of farm consolidation and increased average farm size."
+   ],
+   "desc_b": [
+    "Changes in the wine grape industry due to reduced demand and production."
+   ],
+   "same": false,
+   "reason": "Form A refers to farm business closures and consolidation in agriculture, while Form B refers to changes in the wine grape industry due to demand and production factors."
+  },
+  {
+   "entity": "industrial crop export value",
+   "a": "industrial crop export value",
+   "b": "Industrial crop export values",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of industrial crop exports."
+   ],
+   "desc_b": [
+    "Total export value of industrial crops."
+   ],
+   "same": true,
+   "reason": "Both refer to the total value of industrial crop exports, with only minor differences in phrasing."
+  },
+  {
+   "entity": "domestic supply",
+   "a": "domestic supply",
+   "b": "domestic supplies",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Pig meat produced within Australia.",
+    "Volume of horticulture products produced domestically in Australia."
+   ],
+   "desc_b": [
+    "Volume of barley and sorghum available within Australia."
+   ],
+   "same": true,
+   "reason": "Both 'domestic supply' and 'domestic supplies' refer to goods or products produced or available within Australia."
+  },
+  {
+   "entity": "sheep meat export volume",
+   "a": "sheep meat export volumes",
+   "b": "sheep meat export volume",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Volume of sheep meat exported.",
+    "Volume of sheep meat exported from New Zealand."
+   ],
+   "desc_b": [
+    "Volume of sheep meat exported."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the volume of sheep meat exported, with only a singular/plural difference in 'volumes' vs 'volume'."
+  },
+  {
+   "entity": "saleyard",
+   "a": "saleyard",
+   "b": "saleyards",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Marketplace for cattle sales."
+   ],
+   "desc_b": [
+    "Markets where livestock are sold."
+   ],
+   "same": true,
+   "reason": "Saleyard and saleyards refer to the same type of marketplace for livestock sales, with the latter being the plural form."
+  },
+  {
+   "entity": "herd size",
+   "a": "herd sizes",
+   "b": "herd size",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Number of cattle in a herd."
+   ],
+   "desc_b": [
+    "Total number of livestock on a farm."
+   ],
+   "same": false,
+   "reason": "Form A refers specifically to cattle in a herd, while Form B refers to total livestock on a farm, which may include different types of animals."
+  },
+  {
+   "entity": "agricultural production value",
+   "a": "agricultural production values",
+   "b": "agricultural production value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Total production values of agricultural commodities, forecast to rise.",
+    "Value of agricultural production."
+   ],
+   "desc_b": [
+    "Total value of agricultural production."
+   ],
+   "same": true,
+   "reason": "Both forms refer to the total value of agricultural production, with 'values' being a plural form of 'value' and thus considered the same in this context."
+  },
+  {
+   "entity": "drought year",
+   "a": "drought years",
+   "b": "drought year",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Years characterised by dry conditions affecting agricultural production."
+   ],
+   "desc_b": [
+    "A year with poor climate conditions (1-in-10 year)."
+   ],
+   "same": true,
+   "reason": "Both refer to years affected by drought, with Form A being the plural of Form B."
+  },
+  {
+   "entity": "global trade policy",
+   "a": "global trade policies",
+   "b": "global trade policy",
+   "method": "plural",
+   "mentions_b": 2,
+   "desc_a": [
+    "Policies that affect international trade and economic growth.",
+    "Regulations and agreements governing international trade."
+   ],
+   "desc_b": [
+    "Trade regulations affecting international markets.",
+    "Trade policies affecting global economic outlook."
+   ],
+   "same": true,
+   "reason": "Both refer to the same concept of policies governing international trade, with only a singular/plural difference."
+  },
+  {
+   "entity": "fruit and vegetable",
+   "a": "fruit and vegetable",
+   "b": "fruit and vegetables",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Group of agricultural products."
+   ],
+   "desc_b": [
+    "Group of agricultural products including fruits and vegetables."
+   ],
+   "same": true,
+   "reason": "Both refer to the same category of agricultural products, with only a minor grammatical difference (singular vs. plural)."
+  },
+  {
+   "entity": "milk powder",
+   "a": "milk powders",
+   "b": "milk powder",
+   "method": "plural",
+   "mentions_b": 3,
+   "desc_a": [
+    "Product derived from milk.",
+    "Dairy products made from milk."
+   ],
+   "desc_b": [
+    "Dairy product used in exports.",
+    "Dairy product."
+   ],
+   "same": true,
+   "reason": "Milk powders and milk powder refer to the same product, with the former being the plural form of the latter."
+  },
+  {
+   "entity": "wool export price",
+   "a": "wool export price",
+   "b": "wool export prices",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Average price of wool exports."
+   ],
+   "desc_b": [
+    "Prices of wool exports."
+   ],
+   "same": true,
+   "reason": "Form B is the plural of Form A, referring to the same concept of wool export pricing."
+  },
+  {
+   "entity": "lamb export volume",
+   "a": "lamb export volumes",
+   "b": "lamb export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of lamb exported.",
+    "Volume of lamb exported from Australia."
+   ],
+   "desc_b": [
+    "Volume of lamb exports from Australia."
+   ],
+   "same": true,
+   "reason": "Both refer to the quantity of lamb exported, with only minor differences in phrasing."
+  },
+  {
+   "entity": "crop yield potential",
+   "a": "crop yield potentials",
+   "b": "crop yield potential",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Potential yield of crops based on environmental conditions.",
+    "Potential output of crops based on environmental conditions."
+   ],
+   "desc_b": [
+    "Expected crop yields based on rainfall and conditions."
+   ],
+   "same": true,
+   "reason": "Both refer to the potential output of crops based on environmental factors, with only minor differences in phrasing."
+  },
+  {
+   "entity": "pasture yield potential",
+   "a": "pasture yield potential",
+   "b": "pasture yield potentials",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Expected pasture yields based on rainfall and conditions."
+   ],
+   "desc_b": [
+    "Potential yield of pastures based on environmental conditions."
+   ],
+   "same": true,
+   "reason": "Both refer to the potential yield of pastures, with 'potential' being singular or plural and contextually equivalent here."
+  },
+  {
+   "entity": "livestock and livestock product export value",
+   "a": "livestock and livestock product export values",
+   "b": "livestock and livestock product export value",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Value of livestock and livestock product exports.",
+    "Total value of livestock and livestock products exported."
+   ],
+   "desc_b": [
+    "Value of livestock and livestock product exports."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with Form A being the plural version of Form B."
+  },
+  {
+   "entity": "livestock and livestock product export volume",
+   "a": "livestock and livestock product export volumes",
+   "b": "livestock and livestock product export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of livestock and livestock product exports.",
+    "Volume of livestock and livestock products exported."
+   ],
+   "desc_b": [
+    "Volume of livestock and livestock product exports."
+   ],
+   "same": true,
+   "reason": "Form A and Form B refer to the same concept, with only minor pluralization differences that do not change the meaning."
+  },
+  {
+   "entity": "skim milk powder export volume",
+   "a": "skim milk powder export volumes",
+   "b": "skim milk powder export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of skim milk powder exported by Australia."
+   ],
+   "desc_b": [
+    "Volume of skim milk powder exported from Australia."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of skim milk powder exported, with only minor differences in phrasing (e.g., 'by Australia' vs. 'from Australia')."
+  },
+  {
+   "entity": "whole milk powder export volume",
+   "a": "whole milk powder export volumes",
+   "b": "whole milk powder export volume",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Volume of whole milk powder exported by Australia."
+   ],
+   "desc_b": [
+    "Volume of whole milk powder exported from Australia."
+   ],
+   "same": true,
+   "reason": "Both refer to the volume of whole milk powder exported, with only minor differences in phrasing (singular vs. plural 'volumes') that do not change the meaning in this context."
+  },
+  {
+   "entity": "livestock and livestock product gross value",
+   "a": "livestock and livestock product gross value",
+   "b": "livestock and livestock product gross values",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Total value of livestock and livestock products in Australia."
+   ],
+   "desc_b": [
+    "Total value of livestock and livestock products."
+   ],
+   "same": true,
+   "reason": "The difference is only in the pluralization of 'value' to 'values', which does not change the meaning in this context."
+  },
+  {
+   "entity": "cropping industry",
+   "a": "cropping industry",
+   "b": "cropping industries",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Agricultural industry focused on crop production.",
+    "Agricultural sector focused on growing crops."
+   ],
+   "desc_b": [
+    "Agricultural sector focused on crop production."
+   ],
+   "same": true,
+   "reason": "Cropping industry and cropping industries refer to the same real-world concept, with the latter being a plural form of the former."
+  },
+  {
+   "entity": "winter crop planting",
+   "a": "winter crop planting",
+   "b": "winter crop plantings",
+   "method": "plural",
+   "mentions_b": 1,
+   "desc_a": [
+    "Crop planting intentions for the upcoming growing season."
+   ],
+   "desc_b": [
+    "Number of winter crops planted during 2026–27."
+   ],
+   "same": true,
+   "reason": "Both refer to the activity or count of planting winter crops, with 'plantings' being a plural form of 'planting'."
+  }
+ ],
+ "type_conflicts": [
+  {
+   "entity": "australian agriculture",
+   "types": {
+    "Location": 17,
+    "Commodity": 13,
+    "Event": 1
+   },
+   "mentions": 31,
+   "desc_by_type": {
+    "Location": [
+     "Agricultural sector of Australia.",
+     "Agricultural sector in Australia."
+    ],
+    "Commodity": [
+     "Agricultural sector in Australia.",
+     "The agricultural sector of Australia."
+    ],
+    "Event": [
+     "Snapshot report on agricultural productivity and growth."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the agricultural sector of Australia, with variations in phrasing and entity type labels."
+  },
+  {
+   "entity": "other",
+   "types": {
+    "Location": 5,
+    "Commodity": 2
+   },
+   "mentions": 7,
+   "desc_by_type": {
+    "Location": [
+     "Other Australian states or regions.",
+     "Other export markets for Australian live cattle."
+    ],
+    "Commodity": [
+     "A category for unspecified seafood commodities.",
+     "Other inputs used in the farmpredict model."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'other' refers to different categories in different contexts (location vs. commodity)."
+  },
+  {
+   "entity": "winter crop forecast",
+   "types": {
+    "Event": 4,
+    "Indicator": 4
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Event": [
+     "Forecast for winter crops in Western Australia for the 2025–26 season.",
+     "Forecast for winter crop production in New South Wales for 2024−25."
+    ],
+    "Indicator": [
+     "Forecasted area of winter crops.",
+     "Forecasted area for winter crops."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to forecasts related to winter crop production, regardless of the specific region or time frame."
+  },
+  {
+   "entity": "dews",
+   "types": {
+    "Organisation": 11,
+    "Event": 3
+   },
+   "mentions": 14,
+   "desc_by_type": {
+    "Organisation": [
+     "Data and Environmental Weather Service.",
+     "Agricultural data and information service providing farm business data."
+    ],
+    "Event": [
+     "A system or process related to the ABARES farmpredict model.",
+     "Drought Early Warning System project."
+    ]
+   },
+   "same": false,
+   "reason": "The name 'dews' refers to different concepts as an organisation and as an event."
+  },
+  {
+   "entity": "baseline scenario",
+   "types": {
+    "Event": 22,
+    "Policy": 17
+   },
+   "mentions": 39,
+   "desc_by_type": {
+    "Event": [
+     "Reference scenario for wool production projections.",
+     "Baseline scenario for comparison with the alternative scenario."
+    ],
+    "Policy": [
+     "Assumption of slower world economic growth and higher inflation.",
+     "A reference scenario for projecting agricultural outcomes."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same conceptual baseline scenario used for projections and comparisons in agricultural and economic contexts."
+  },
+  {
+   "entity": "alternative scenario",
+   "types": {
+    "Event": 31,
+    "Policy": 14
+   },
+   "mentions": 45,
+   "desc_by_type": {
+    "Event": [
+     "Alternative projection scenario for wool production.",
+     "An alternative scenario for agricultural commodities projections."
+    ],
+    "Policy": [
+     "A hypothetical scenario used for forecasting purposes.",
+     "An alternative projection scenario for agricultural outcomes."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to a hypothetical scenario used for forecasting agricultural outcomes."
+  },
+  {
+   "entity": "all broadacre farm",
+   "types": {
+    "Location": 5,
+    "Commodity": 3
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Location": [
+     "Agricultural farms that engage in broadacre cropping.",
+     "A category of farms covering various agricultural activities."
+    ],
+    "Commodity": [
+     "Production from all broadacre farms.",
+     "Agricultural farms engaged in broadacre farming activities."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of broadacre farms, with variations in phrasing and context."
+  },
+  {
+   "entity": "flood1_5",
+   "types": {
+    "Event": 2,
+    "Indicator": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Event": [
+     "A flood event with a 1 in 5 year return period.",
+     "Indicator of farm exposure to flooding."
+    ],
+    "Indicator": [
+     "Average frequency of farm flooding, ignoring areas flooded more than 1.5% of the time.",
+     "Flood occurrence in 1.5 years."
+    ]
+   },
+   "same": true,
+   "reason": "Both descriptions refer to the same flood frequency concept, with slight variations in phrasing and focus."
+  },
+  {
+   "entity": "dairy herd",
+   "types": {
+    "Commodity": 4,
+    "Indicator": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Commodity": [
+     "Group of dairy cows in Australia.",
+     "Group of dairy cows."
+    ],
+    "Indicator": [
+     "Number of dairy cows in the herd.",
+     "Number of dairy cows in New Zealand."
+    ]
+   },
+   "same": false,
+   "reason": "The descriptions refer to different geographic locations (Australia vs. New Zealand)."
+  },
+  {
+   "entity": "interest",
+   "types": {
+    "Indicator": 2,
+    "Commodity": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Interest costs related to farm financing.",
+     "Cost of borrowing money for farm operations."
+    ],
+    "Commodity": [
+     "Financial cost related to farming operations.",
+     "Agricultural input."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'interest' refers to financial costs, not a commodity or agricultural input."
+  },
+  {
+   "entity": "cost",
+   "types": {
+    "Indicator": 3,
+    "Commodity": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Total expenses incurred by farmers.",
+     "Expenses incurred by farm businesses."
+    ],
+    "Commodity": [
+     "Agricultural input."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'cost' refers to expenses in one context and an agricultural input in another, indicating different concepts."
+  },
+  {
+   "entity": "dairy cow herd",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of dairy cows in the herd.",
+     "Number of dairy cows in Australia."
+    ],
+    "Commodity": [
+     "Number of dairy cows in the national herd."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world entity, the dairy cow herd in Australia, with slight variations in phrasing."
+  },
+  {
+   "entity": "rainfall outlook",
+   "types": {
+    "Indicator": 33,
+    "Event": 11
+   },
+   "mentions": 44,
+   "desc_by_type": {
+    "Indicator": [
+     "Expected rainfall in spring.",
+     "Forecasted rainfall levels for Queensland."
+    ],
+    "Event": [
+     "Expected rainfall conditions for the winter season.",
+     "Three-month rainfall outlook for December to February 2024."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to predictions or forecasts of rainfall, which are different temporal or regional aspects of the same general concept."
+  },
+  {
+   "entity": "labour",
+   "types": {
+    "Commodity": 7,
+    "Indicator": 5
+   },
+   "mentions": 12,
+   "desc_by_type": {
+    "Commodity": [
+     "Human resources used in farming.",
+     "Human effort in agricultural production."
+    ],
+    "Indicator": [
+     "Cost of labour affecting profitability.",
+     "A key input to Australian agriculture, measured by employment numbers."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of labour in the context of Australian agriculture, regardless of the entity type."
+  },
+  {
+   "entity": "sheep slaughtering",
+   "types": {
+    "Indicator": 3,
+    "Commodity": 3
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of sheep slaughtered.",
+     "Value of sheep meat production and processing."
+    ],
+    "Commodity": [
+     "Sheep slaughtering activity.",
+     "Sheep slaughtering for export."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'sheep slaughtering' refers to an activity, while 'sheep meat production and processing' refers to a product or output, indicating different aspects."
+  },
+  {
+   "entity": "australian sheep flock",
+   "types": {
+    "Commodity": 8,
+    "Location": 6,
+    "Indicator": 4
+   },
+   "mentions": 18,
+   "desc_by_type": {
+    "Commodity": [
+     "Sheep population in Australia.",
+     "Total number of sheep in Australia."
+    ],
+    "Location": [
+     "The total population of sheep in Australia.",
+     "Sheep population in Australia."
+    ],
+    "Indicator": [
+     "Total number of sheep in Australia.",
+     "Number of sheep in the Australian flock."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the total number of sheep in Australia, regardless of the entity type label."
+  },
+  {
+   "entity": "alternative",
+   "types": {
+    "Indicator": 3,
+    "Policy": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Alternative scenario for volume, price, and value projections.",
+     "Alternative export scenario."
+    ],
+    "Policy": [
+     "Alternative scenario for agricultural projections."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of an 'alternative scenario' in agricultural projections."
+  },
+  {
+   "entity": "cropping farm",
+   "types": {
+    "Commodity": 29,
+    "Location": 18
+   },
+   "mentions": 47,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms engaged in crop production.",
+     "Farms involved in broadacre cropping activities."
+    ],
+    "Location": [
+     "Farms engaged in crop production.",
+     "Agricultural farms that grow crops."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'cropping farm' is used as a commodity type and a location type, which refer to different aspects (activity vs. place)."
+  },
+  {
+   "entity": "mixed farm",
+   "types": {
+    "Commodity": 6,
+    "Location": 2
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms combining crop and livestock production.",
+     "Farms that engage in multiple agricultural activities."
+    ],
+    "Location": [
+     "A category of farms in the study.",
+     "Agricultural farms that engage in both cropping and livestock activities."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to farms engaged in both crop and livestock production, regardless of the label."
+  },
+  {
+   "entity": "sheep farm",
+   "types": {
+    "Commodity": 12,
+    "Location": 8
+   },
+   "mentions": 20,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms primarily focused on sheep production.",
+     "Farms primarily focused on sheep rearing."
+    ],
+    "Location": [
+     "Sheep farming operations in Australia.",
+     "Farms involved in sheep farming."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'sheep farm' refers to a type of agricultural operation (commodity) versus a geographic area where such operations occur (location)."
+  },
+  {
+   "entity": "beef farm",
+   "types": {
+    "Commodity": 19,
+    "Location": 9
+   },
+   "mentions": 28,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms primarily focused on beef production.",
+     "Farms that raise beef."
+    ],
+    "Location": [
+     "Agricultural farms engaged in beef production.",
+     "Farms that produce beef."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to beef farms, regardless of the entity type label."
+  },
+  {
+   "entity": "beef-sheep farm",
+   "types": {
+    "Commodity": 3,
+    "Location": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms combining beef and sheep production.",
+     "Farms that combine beef and sheep production."
+    ],
+    "Location": [
+     "Agricultural farms that raise both beef and sheep.",
+     "Agricultural farms in Australia that raise beef and sheep."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to farms that produce both beef and sheep, regardless of the label."
+  },
+  {
+   "entity": "broadacre farm",
+   "types": {
+    "Commodity": 20,
+    "Location": 13
+   },
+   "mentions": 33,
+   "desc_by_type": {
+    "Commodity": [
+     "Agricultural farms that grow crops and graze livestock.",
+     "Farms engaged in broadacre agriculture."
+    ],
+    "Location": [
+     "Agricultural farms that grow crops or graze livestock.",
+     "Agricultural farms in Australia."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'broadacre farm' refers to a type of agricultural activity, not a location, so it cannot be correctly labeled as a location."
+  },
+  {
+   "entity": "global uncertainty",
+   "types": {
+    "Event": 4,
+    "Indicator": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Event": [
+     "Economic conditions affecting textile consumption.",
+     "Uncertainty in global economic conditions affecting consumer demand."
+    ],
+    "Indicator": [
+     "Level of uncertainty in the global economy."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of global economic uncertainty."
+  },
+  {
+   "entity": "economic condition",
+   "types": {
+    "Event": 7,
+    "Indicator": 2
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Event": [
+     "General economic environment affecting agricultural markets.",
+     "Conditions affecting consumer spending and cotton prices."
+    ],
+    "Indicator": [
+     "General economic conditions affecting demand.",
+     "Weak economic conditions affecting wine demand."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the general economic conditions impacting agricultural markets and consumer demand."
+  },
+  {
+   "entity": "sustainability",
+   "types": {
+    "Indicator": 5,
+    "Policy": 3
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Indicator": [
+     "Environmental and ethical aspects of wool production.",
+     "Environmental and ethical practices in production."
+    ],
+    "Policy": [
+     "Practices ensuring long-term agricultural viability.",
+     "Focus on reducing emissions and improving practices in agriculture."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of sustainability in agriculture, focusing on environmental and ethical practices for long-term viability."
+  },
+  {
+   "entity": "trade restriction",
+   "types": {
+    "Event": 4,
+    "Policy": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Event": [
+     "Trade barriers affecting beef imports.",
+     "Trade restrictions in major export markets."
+    ],
+    "Policy": [
+     "Trade restrictions with China, recently removed.",
+     "Trade restrictions on some commodities such as wine, barley and beef."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to trade restrictions, which can be categorized as events or policies affecting agricultural exports."
+  },
+  {
+   "entity": "sheep meat and live sheep export",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Export value of sheep meat and live sheep.",
+     "Total value of sheep meat and live sheep exports."
+    ],
+    "Commodity": [
+     "Combined value of sheep meat and live sheep exports."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of exports related to sheep meat and live sheep, with slight variations in phrasing."
+  },
+  {
+   "entity": "live cattle export",
+   "types": {
+    "Commodity": 6,
+    "Indicator": 2
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Commodity": [
+     "Cattle exported alive for meat production.",
+     "Live cattle exported from Australia."
+    ],
+    "Indicator": [
+     "Value of live cattle exported from Australia.",
+     "Monetary value of live cattle exports."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the export of live cattle from Australia, with variations in detail and focus."
+  },
+  {
+   "entity": "climate condition",
+   "types": {
+    "Event": 23,
+    "Indicator": 7
+   },
+   "mentions": 30,
+   "desc_by_type": {
+    "Event": [
+     "Deterioration in climate conditions affecting cattle production.",
+     "Weather and climate factors affecting farm productivity."
+    ],
+    "Indicator": [
+     "Measured climatic factors used as exogenous inputs in the Profit and Drought Indicators.",
+     "Weather conditions affecting agricultural production."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to climate factors impacting agricultural production, just with different contextual labels."
+  },
+  {
+   "entity": "sheep flock",
+   "types": {
+    "Commodity": 20,
+    "Indicator": 20,
+    "Location": 4
+   },
+   "mentions": 44,
+   "desc_by_type": {
+    "Commodity": [
+     "Livestock population in New Zealand.",
+     "Livestock population in Australia."
+    ],
+    "Indicator": [
+     "Number of sheep in the Australian flock.",
+     "Number of sheep in the population."
+    ],
+    "Location": [
+     "Population of sheep in Australia."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'sheep flock' refers to a group of sheep, but the different entity types (Commodity, Indicator, Location) describe distinct aspects and contexts, not the same real-world thing."
+  },
+  {
+   "entity": "forestry",
+   "types": {
+    "Commodity": 8,
+    "Location": 2
+   },
+   "mentions": 10,
+   "desc_by_type": {
+    "Commodity": [
+     "Major commodity category.",
+     "Timber and other products from forests."
+    ],
+    "Location": [
+     "Sector excluded from agricultural lending data collection.",
+     "Sector of the Australian economy."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'forestry' refers to different concepts depending on the context—commodity vs. economic sector."
+  },
+  {
+   "entity": "chinese economy",
+   "types": {
+    "Location": 3,
+    "Indicator": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Location": [
+     "Australia's most valuable export market.",
+     "Economic conditions in China."
+    ],
+    "Indicator": [
+     "Economic performance of China."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the Chinese economy, even though the context varies slightly."
+  },
+  {
+   "entity": "apsim",
+   "types": {
+    "Organisation": 8,
+    "Commodity": 2
+   },
+   "mentions": 10,
+   "desc_by_type": {
+    "Organisation": [
+     "Agricultural systems simulation model.",
+     "Agricultural systems simulation model used in research."
+    ],
+    "Commodity": [
+     "Model for measuring crop yields."
+    ]
+   },
+   "same": false,
+   "reason": "The name 'apsim' refers to different concepts: an organisation (a model used in research) versus a commodity (a tool for measuring crop yields)."
+  },
+  {
+   "entity": "chinese renminbi",
+   "types": {
+    "Indicator": 4,
+    "Location": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of the Chinese currency.",
+     "Currency of China."
+    ],
+    "Location": [
+     "Currency used in China."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the Chinese Renminbi (currency of China)."
+  },
+  {
+   "entity": "japanese yen",
+   "types": {
+    "Indicator": 4,
+    "Location": 3
+   },
+   "mentions": 7,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of the Japanese currency.",
+     "Currency of Japan."
+    ],
+    "Location": [
+     "Currency of Japan affecting import prices.",
+     "Currency used in Japan."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the Japanese yen, a currency used in Japan."
+  },
+  {
+   "entity": "spring rainfall outlook",
+   "types": {
+    "Indicator": 4,
+    "Event": 3
+   },
+   "mentions": 7,
+   "desc_by_type": {
+    "Indicator": [
+     "Forecasted rainfall during the spring season in Australia.",
+     "Rainfall outlook for spring in New South Wales."
+    ],
+    "Event": [
+     "Below average spring rainfall forecast.",
+     "Positive forecast for spring rainfall in major barley growing regions."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to forecasts or outlooks related to spring rainfall in Australia, even though they vary in specificity and focus."
+  },
+  {
+   "entity": "global demand",
+   "types": {
+    "Indicator": 56,
+    "Event": 15
+   },
+   "mentions": 71,
+   "desc_by_type": {
+    "Indicator": [
+     "Measured level of demand for agricultural commodities globally.",
+     "Volume of agricultural commodities demanded internationally."
+    ],
+    "Event": [
+     "Increased demand for horticulture products.",
+     "Increased demand for Australian livestock products worldwide."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of global demand for agricultural products, even though the entity type varies between Indicator and Event."
+  },
+  {
+   "entity": "broadacre sector",
+   "types": {
+    "Commodity": 4,
+    "Location": 3
+   },
+   "mentions": 7,
+   "desc_by_type": {
+    "Commodity": [
+     "Sector of agriculture involving crops and livestock.",
+     "Sector of agriculture involving livestock and crops in Tasmania."
+    ],
+    "Location": [
+     "Agricultural sector encompassing cropping and livestock farms.",
+     "Sector of agriculture involving crops and livestock."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of the broadacre sector in agriculture, focusing on crops and livestock, with slight variations in phrasing and regional context."
+  },
+  {
+   "entity": "farm survey data",
+   "types": {
+    "Organisation": 3,
+    "Indicator": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Organisation": [
+     "Source of detailed historical and forecast farm survey data."
+    ],
+    "Indicator": [
+     "Data collected from farm surveys on agricultural activities."
+    ]
+   },
+   "same": true,
+   "reason": "Both descriptions refer to data collected from farm surveys, just with different labels (organisation vs. indicator)."
+  },
+  {
+   "entity": "crop export",
+   "types": {
+    "Indicator": 8,
+    "Commodity": 2
+   },
+   "mentions": 10,
+   "desc_by_type": {
+    "Indicator": [
+     "Total value of agricultural crop exports.",
+     "Value of crop exports."
+    ],
+    "Commodity": [
+     "Exports of crops including winter crops and grains.",
+     "Exports of crops such as wheat, canola, and other agricultural products."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the export of agricultural crops, with variations in specificity and scope."
+  },
+  {
+   "entity": "australian cattle herd",
+   "types": {
+    "Commodity": 5,
+    "Indicator": 4
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Commodity": [
+     "Total population of cattle in Australia.",
+     "Total number of cattle in Australia."
+    ],
+    "Indicator": [
+     "Number of cattle in the Australian beef industry.",
+     "Size of the cattle population in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the total number of cattle in Australia, regardless of the entity type label."
+  },
+  {
+   "entity": "dairy farm",
+   "types": {
+    "Location": 11,
+    "Commodity": 10
+   },
+   "mentions": 21,
+   "desc_by_type": {
+    "Location": [
+     "Farms that produce dairy products.",
+     "Agricultural farms in the region affected by flooding."
+    ],
+    "Commodity": [
+     "Farms producing dairy products.",
+     "Dairy farms in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to dairy farms, with variations in focus on location and commodity."
+  },
+  {
+   "entity": "cropping specialist",
+   "types": {
+    "Commodity": 3,
+    "Location": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms specializing in specific cropping activities.",
+     "Farms specialized in cropping."
+    ],
+    "Location": [
+     "A category of farms in the study.",
+     "Farmers specializing in cropping activities."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'cropping specialist' refers to a type of farm or farmer, not a location."
+  },
+  {
+   "entity": "livestock production",
+   "types": {
+    "Indicator": 9,
+    "Commodity": 4
+   },
+   "mentions": 13,
+   "desc_by_type": {
+    "Indicator": [
+     "Intensive livestock production associated with domestic demand.",
+     "Volume of livestock produced by farms."
+    ],
+    "Commodity": [
+     "Production of livestock and livestock products.",
+     "Production of livestock."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of livestock production, with variations in focus and scope."
+  },
+  {
+   "entity": "australian agricultural export",
+   "types": {
+    "Commodity": 11,
+    "Indicator": 6
+   },
+   "mentions": 17,
+   "desc_by_type": {
+    "Commodity": [
+     "Agricultural products exported by Australia.",
+     "Agricultural products exported from Australia."
+    ],
+    "Indicator": [
+     "Total value of agricultural exports including fisheries and forestry.",
+     "Exports of Australian agricultural products."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of Australian agricultural exports, with variations in phrasing and scope."
+  },
+  {
+   "entity": "aussiegrass",
+   "types": {
+    "Organisation": 7,
+    "Commodity": 2
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Organisation": [
+     "Provider of pasture growth estimates.",
+     "Source of pasture biomass data."
+    ],
+    "Commodity": [
+     "System for measuring pasture growth."
+    ]
+   },
+   "same": false,
+   "reason": "The entity is described as an organisation and a commodity, which are different real-world things."
+  },
+  {
+   "entity": "farm businesse",
+   "types": {
+    "Location": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Location": [
+     "Agricultural operations in Australia.",
+     "Businesses involved in farming activities in Australia."
+    ],
+    "Commodity": [
+     "Type of agricultural businesses in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to agricultural businesses in Australia, with different labels indicating the same concept."
+  },
+  {
+   "entity": "australian beef export",
+   "types": {
+    "Indicator": 9,
+    "Commodity": 6
+   },
+   "mentions": 15,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of beef exported by Australia.",
+     "Value of beef exports from Australia."
+    ],
+    "Commodity": [
+     "Beef products exported from Australia.",
+     "Beef exported from Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of Australian beef exports, with different labels indicating aspects (indicator vs. commodity)."
+  },
+  {
+   "entity": "live sheep export",
+   "types": {
+    "Commodity": 8,
+    "Indicator": 5
+   },
+   "mentions": 13,
+   "desc_by_type": {
+    "Commodity": [
+     "Live sheep exported from Australia.",
+     "Live sheep exported for sale."
+    ],
+    "Indicator": [
+     "Value of live sheep exported from Australia.",
+     "Value of live sheep exported."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the export of live sheep from Australia, with variations in detail and focus."
+  },
+  {
+   "entity": "dairy export",
+   "types": {
+    "Indicator": 12,
+    "Commodity": 4
+   },
+   "mentions": 16,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of dairy products exported from Australia.",
+     "Volume of dairy products exported."
+    ],
+    "Commodity": [
+     "Exports of dairy products from Australia.",
+     "Australian dairy products exported to international markets."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the export of dairy products from Australia, regardless of the entity type."
+  },
+  {
+   "entity": "debt mediation",
+   "types": {
+    "Event": 3,
+    "Indicator": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Event": [
+     "Process to resolve financial difficulties in loan repayment.",
+     "Process to resolve farm loan issues."
+    ],
+    "Indicator": [
+     "Number of loans subject to debt mediation."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of debt mediation in the context of financial and farm loan issues."
+  },
+  {
+   "entity": "meat export",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of meat exports.",
+     "Volume of meat exports."
+    ],
+    "Commodity": [
+     "Meat products exported by Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of meat exports from Australia, with different labels indicating aspects (indicator, commodity)."
+  },
+  {
+   "entity": "livestock farm",
+   "types": {
+    "Location": 15,
+    "Commodity": 14
+   },
+   "mentions": 29,
+   "desc_by_type": {
+    "Location": [
+     "Agricultural farms that raise livestock.",
+     "Farms engaged in livestock farming practices."
+    ],
+    "Commodity": [
+     "Type of agricultural businesses in Australia.",
+     "Farms engaged in livestock production."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of a farm involved in raising livestock, with different labels indicating context (location vs. commodity)."
+  },
+  {
+   "entity": "farm business entity",
+   "types": {
+    "Location": 4,
+    "Organisation": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Location": [
+     "Businesses engaged in agricultural activities.",
+     "A business entity involved in agricultural activities."
+    ],
+    "Organisation": [
+     "Entities that borrow or lease for agricultural activities.",
+     "An entity that undertakes productive agricultural activities as its primary source of income."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of a farm business entity involved in agricultural activities, with slight variations in focus."
+  },
+  {
+   "entity": "global climate outlook",
+   "types": {
+    "Event": 3,
+    "Indicator": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Event": [
+     "Forecast of global climate conditions for September to November 2024.",
+     "Global climate outlook for December 2024 to February 2025."
+    ],
+    "Indicator": [
+     "Measure of climate conditions and forecasts for the globe."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of a global climate outlook, with different labels indicating its use as an event or indicator."
+  },
+  {
+   "entity": "us dollar",
+   "types": {
+    "Indicator": 13,
+    "Location": 11,
+    "Commodity": 2
+   },
+   "mentions": 26,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of the US currency relative to other currencies.",
+     "Currency of the United States."
+    ],
+    "Location": [
+     "Currency of the United States.",
+     "Currency used as a financial asset."
+    ],
+    "Commodity": [
+     "Currency used in the United States.",
+     "Currency of the United States."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the US dollar, a currency of the United States, regardless of the entity type label."
+  },
+  {
+   "entity": "cattle herd",
+   "types": {
+    "Indicator": 5,
+    "Commodity": 4
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of cattle in the population.",
+     "Number of cattle in Australia."
+    ],
+    "Commodity": [
+     "Livestock population of cattle.",
+     "Livestock used for meat and dairy production."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of cattle in Australia, with different labels indicating usage context."
+  },
+  {
+   "entity": "biofuel",
+   "types": {
+    "Commodity": 4,
+    "Indicator": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Fuel produced from organic materials.",
+     "Fuel derived from organic materials."
+    ],
+    "Indicator": [
+     "Demand for biofuels in the European Union and North America."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to biofuel as a product derived from organic materials, with the indicator describing its demand in specific regions."
+  },
+  {
+   "entity": "global economic outlook",
+   "types": {
+    "Event": 6,
+    "Indicator": 6
+   },
+   "mentions": 12,
+   "desc_by_type": {
+    "Event": [
+     "Relatively weak global economic outlook, particularly in advanced economies.",
+     "Global economic outlook for 2025–26 affected by uncertainty around inflation and trade policy."
+    ],
+    "Indicator": [
+     "Measure of global economic activity and uncertainty.",
+     "Measure of the global economic conditions and expectations for 2024."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of the global economic outlook, with different labels (Event, Indicator) capturing different aspects of the same real-world thing."
+  },
+  {
+   "entity": "farmpredict",
+   "types": {
+    "Organisation": 15,
+    "Indicator": 7,
+    "Commodity": 5
+   },
+   "mentions": 27,
+   "desc_by_type": {
+    "Organisation": [
+     "Model used by ABARES for agricultural forecasts.",
+     "ABARES tool for predicting agricultural outcomes."
+    ],
+    "Indicator": [
+     "Model used to assess long-term climate projection scenarios for Australian broadacre farms.",
+     "A micro-simulation model of Australian farms."
+    ],
+    "Commodity": [
+     "A micro-simulation model of Australian farms developed by ABARES.",
+     "ABARES broadacre farm microsimulation model."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same model called 'farmpredict' developed by ABARES for agricultural forecasting and simulation."
+  },
+  {
+   "entity": "export demand",
+   "types": {
+    "Indicator": 3,
+    "Event": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Demand for Australian sheep meat in international markets.",
+     "Volume of barley and sorghum demanded internationally."
+    ],
+    "Event": [
+     "Demand for sheep meat in international markets."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of international demand for agricultural products, specifically sheep meat and grains."
+  },
+  {
+   "entity": "farmer",
+   "types": {
+    "Location": 3,
+    "Organisation": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Location": [
+     "Producers of agricultural commodities.",
+     "Individuals engaged in agricultural production."
+    ],
+    "Organisation": [
+     "Individuals engaged in agricultural production."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'farmer' refers to individuals, not organisations, so the entity types are inconsistent."
+  },
+  {
+   "entity": "large farm",
+   "types": {
+    "Location": 3,
+    "Commodity": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Location": [
+     "Australian farms categorized by size based on opening capital stock.",
+     "Typical size category of Australian cropping and beef farms."
+    ],
+    "Commodity": [
+     "Farms classified by size as large."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of 'large farm' in the context of Australian agriculture, regardless of the entity type."
+  },
+  {
+   "entity": "small farm",
+   "types": {
+    "Location": 3,
+    "Commodity": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Location": [
+     "Australian farms categorized by size based on opening capital stock.",
+     "Typical size category of Australian cropping and beef farms."
+    ],
+    "Commodity": [
+     "Farms classified by size as small."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of 'small farm' in the context of Australian agriculture, regardless of the entity type."
+  },
+  {
+   "entity": "medium farm",
+   "types": {
+    "Location": 3,
+    "Commodity": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Location": [
+     "Australian farms categorized by size based on opening capital stock.",
+     "Typical size category of Australian cropping and beef farms."
+    ],
+    "Commodity": [
+     "Farms classified by size as medium."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of 'medium farm' categorized by size in the context of Australian agriculture."
+  },
+  {
+   "entity": "farmpredict model",
+   "types": {
+    "Organisation": 9,
+    "Indicator": 7
+   },
+   "mentions": 16,
+   "desc_by_type": {
+    "Organisation": [
+     "A model used to assess the effects of drought on farms.",
+     "Model used to simulate farm inputs and outputs under various climate conditions."
+    ],
+    "Indicator": [
+     "A model used by ABARES to simulate farm performance based on AADI forecasts.",
+     "Statistical microsimulation model of Australian broadacre farm businesses."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same model, 'farmpredict', with different focuses on its application and purpose."
+  },
+  {
+   "entity": "turn-off",
+   "types": {
+    "Indicator": 3,
+    "Event": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Rate at which livestock are removed from pasture.",
+     "Rate of livestock being turned off for slaughter."
+    ],
+    "Event": [
+     "Process of removing sheep from the flock due to high prices.",
+     "Increased number of livestock being sold or removed from the herd."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the process of removing livestock from a herd or flock, whether as a rate or an event."
+  },
+  {
+   "entity": "supply chain",
+   "types": {
+    "Indicator": 3,
+    "Location": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Efficiency and reliability of supply chains.",
+     "Networks through which agricultural commodities are traded."
+    ],
+    "Location": [
+     "Network of production and distribution for poultry and poultry products.",
+     "Global supply chains assumed to remain relatively undisrupted."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of a supply chain in the context of agricultural production and distribution."
+  },
+  {
+   "entity": "australian export",
+   "types": {
+    "Indicator": 7,
+    "Commodity": 3
+   },
+   "mentions": 10,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of exports from Australia.",
+     "Volume of Australian exports."
+    ],
+    "Commodity": [
+     "Exports of agricultural commodities from Australia.",
+     "Agricultural exports from Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of Australian agricultural exports, with variations in phrasing and entity type."
+  },
+  {
+   "entity": "us demand",
+   "types": {
+    "Indicator": 3,
+    "Event": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Demand for Australian beef in the United States.",
+     "Expected increase in US demand for Australian beef."
+    ],
+    "Event": [
+     "Strong demand for Australian beef in the United States."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of demand for Australian beef in the United States, with different labels (Indicator, Event) describing the same phenomenon."
+  },
+  {
+   "entity": "global economy",
+   "types": {
+    "Location": 5,
+    "Indicator": 2,
+    "Event": 2
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Location": [
+     "Global economic system.",
+     "World economy as a whole."
+    ],
+    "Indicator": [
+     "Overall economic performance affecting wool demand.",
+     "Overall economic performance of countries worldwide."
+    ],
+    "Event": [
+     "Macroeconomic conditions affecting agricultural forecasts.",
+     "Macroeconomic conditions affecting agricultural exports."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the global economy as a system or factor influencing economic conditions worldwide."
+  },
+  {
+   "entity": "australian financial year",
+   "types": {
+    "Event": 12,
+    "Indicator": 9
+   },
+   "mentions": 21,
+   "desc_by_type": {
+    "Event": [
+     "A financial year in Australia, running from July to June.",
+     "The financial year in Australia, running from July to June."
+    ],
+    "Indicator": [
+     "A financial year in Australia, running from July to June.",
+     "A period from July to June used for reporting crop production forecasts."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same financial year period in Australia, even though one includes an additional use case for crop production."
+  },
+  {
+   "entity": "egg production",
+   "types": {
+    "Commodity": 11,
+    "Indicator": 5
+   },
+   "mentions": 16,
+   "desc_by_type": {
+    "Commodity": [
+     "Production of eggs.",
+     "The production of eggs for consumption."
+    ],
+    "Indicator": [
+     "Value of egg production in Australia.",
+     "Value of egg output."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the production of eggs, with variations in specificity and context."
+  },
+  {
+   "entity": "horticultural production",
+   "types": {
+    "Indicator": 3,
+    "Commodity": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of horticultural production in Australia.",
+     "Real value of horticultural production over the outlook period."
+    ],
+    "Commodity": [
+     "Production of horticultural crops."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of horticultural production, with different labels indicating different aspects or contexts."
+  },
+  {
+   "entity": "working holiday maker",
+   "types": {
+    "Location": 3,
+    "Event": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Location": [
+     "Overseas workers in the Australian horticulture sector.",
+     "Temporary workers in Australia."
+    ],
+    "Event": [
+     "Workers participating in the Working Holiday Makers scheme.",
+     "Temporary workers in Australia, often employed in agriculture."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same group of temporary workers in Australia, specifically those under the Working Holiday Makers scheme."
+  },
+  {
+   "entity": "australian wool production",
+   "types": {
+    "Indicator": 8,
+    "Commodity": 2
+   },
+   "mentions": 10,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of wool produced in Australia.",
+     "Value of wool produced in Australia."
+    ],
+    "Commodity": [
+     "Wool produced in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of wool production in Australia, with different labels indicating different aspects (indicator vs. commodity)."
+  },
+  {
+   "entity": "calving",
+   "types": {
+    "Indicator": 3,
+    "Event": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of calves born in a year.",
+     "Number of calves born in a given period."
+    ],
+    "Event": [
+     "Birth of calves."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the birth of calves, just with different levels of specificity."
+  },
+  {
+   "entity": "australian sheep meat production",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of sheep meat produced in Australia."
+    ],
+    "Commodity": [
+     "Production of sheep meat in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "Both descriptions refer to the production of sheep meat in Australia, with slight differences in phrasing but the same underlying concept."
+  },
+  {
+   "entity": "mutton slaughter",
+   "types": {
+    "Indicator": 3,
+    "Event": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of mutton sheep slaughtered for meat.",
+     "Number of mutton-producing sheep slaughtered in a given period."
+    ],
+    "Event": [
+     "Reduction in the number of sheep slaughtered for mutton."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of sheep slaughtered for mutton, with different labels indicating either the quantity (Indicator) or a change in quantity (Event)."
+  },
+  {
+   "entity": "global economic condition",
+   "types": {
+    "Event": 6,
+    "Indicator": 2
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Event": [
+     "Positive global economic conditions affecting the Australian dollar exchange rate.",
+     "Global economic conditions that could affect economic growth and consumer incomes."
+    ],
+    "Indicator": [
+     "Global economic conditions and demand.",
+     "Economic conditions affecting demand and trade."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of global economic conditions, with different labels (Event, Indicator) indicating different contexts of analysis."
+  },
+  {
+   "entity": "processor competition",
+   "types": {
+    "Event": 4,
+    "Indicator": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Event": [
+     "Increased competition among processors affecting demand.",
+     "Increased competition among milk processors."
+    ],
+    "Indicator": [
+     "Level of competition among cattle processors."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to competition among agricultural processors, with slight variations in focus."
+  },
+  {
+   "entity": "brisbane sorghum",
+   "types": {
+    "Commodity": 2,
+    "Indicator": 1,
+    "Location": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Commodity": [
+     "A type of sorghum produced in Brisbane.",
+     "A specific type of grain sorghum."
+    ],
+    "Indicator": [
+     "Price of sorghum in Brisbane."
+    ],
+    "Location": [
+     "Location for grain sorghum pricing."
+    ]
+   },
+   "same": false,
+   "reason": "The name 'brisbane sorghum' refers to different concepts depending on the entity type."
+  },
+  {
+   "entity": "pork production",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of pig meat produced in Australia.",
+     "Volume of pork produced."
+    ],
+    "Commodity": [
+     "Meat product from pigs."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the production of meat from pigs, just with varying levels of specificity."
+  },
+  {
+   "entity": "australian exporter",
+   "types": {
+    "Organisation": 4,
+    "Location": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Organisation": [
+     "Exporters of Australian agricultural products.",
+     "Exporters of Australian commodities."
+    ],
+    "Location": [
+     "Exporters in Australia.",
+     "Exporters from Australia in the agricultural sector."
+    ]
+   },
+   "same": false,
+   "reason": "The entity 'Australian exporter' is described as an organisation in one context and as a location in another, referring to different aspects."
+  },
+  {
+   "entity": "grassgro",
+   "types": {
+    "Organisation": 4,
+    "Commodity": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Organisation": [
+     "Model for estimating pasture growth.",
+     "Model used for pasture growth forecasts."
+    ],
+    "Commodity": [
+     "Model for measuring pasture growth."
+    ]
+   },
+   "same": false,
+   "reason": "The entity is classified as both an Organisation and a Commodity, which are different types."
+  },
+  {
+   "entity": "global growth",
+   "types": {
+    "Indicator": 5,
+    "Event": 3
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Indicator": [
+     "Economic growth worldwide.",
+     "Projected global economic growth rate."
+    ],
+    "Event": [
+     "Global economic growth conditions affecting trade.",
+     "Global economic growth conditions affecting wool export demand."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of global economic growth, even though they are labeled under different types (Indicator and Event)."
+  },
+  {
+   "entity": "cost-of-living pressure",
+   "types": {
+    "Event": 6,
+    "Indicator": 4
+   },
+   "mentions": 10,
+   "desc_by_type": {
+    "Event": [
+     "Economic pressures affecting consumer spending.",
+     "Global pressures from high inflation and interest rates affecting consumer confidence and spending."
+    ],
+    "Indicator": [
+     "Economic pressures affecting the cost of living.",
+     "Economic pressures affecting wine exports."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'cost-of-living pressure' refers to different aspects in the Event and Indicator contexts."
+  },
+  {
+   "entity": "farming practice",
+   "types": {
+    "Policy": 2,
+    "Indicator": 1,
+    "Event": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Policy": [
+     "Practices that conserve moisture and improve water use efficiency.",
+     "Improved practices for soil moisture conservation and water use efficiency."
+    ],
+    "Indicator": [
+     "Methods used in farming."
+    ],
+    "Event": [
+     "Improved farming practices in Western Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the general concept of farming practices, even though they are labeled differently based on context."
+  },
+  {
+   "entity": "dairy industry",
+   "types": {
+    "Commodity": 4,
+    "Location": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Milk and dairy products from Australian farming.",
+     "Industry group involved in dairy production."
+    ],
+    "Location": [
+     "The dairy industry in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the dairy industry in Australia, with different labels indicating aspects of the same entity."
+  },
+  {
+   "entity": "beef herd",
+   "types": {
+    "Indicator": 3,
+    "Commodity": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of cattle in the beef industry.",
+     "Number of beef cattle in the United States."
+    ],
+    "Commodity": [
+     "Population of cattle in Australia.",
+     "Livestock population for beef production."
+    ]
+   },
+   "same": false,
+   "reason": "The descriptions refer to different geographic regions and contexts."
+  },
+  {
+   "entity": "meat production",
+   "types": {
+    "Indicator": 5,
+    "Commodity": 2
+   },
+   "mentions": 7,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of meat produced in Australia.",
+     "Volume of meat produced."
+    ],
+    "Commodity": [
+     "Production of meat in Australia.",
+     "Livestock product derived from animals."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the production of meat in Australia, with variations in phrasing and focus."
+  },
+  {
+   "entity": "freight",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Cost of transporting goods, affecting wine exports.",
+     "Cost of freight affecting export viability."
+    ],
+    "Commodity": [
+     "Transportation services for agricultural products."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of freight in the context of transportation costs for agricultural goods."
+  },
+  {
+   "entity": "nut export",
+   "types": {
+    "Indicator": 2,
+    "Commodity": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Value of nut exports."
+    ],
+    "Commodity": [
+     "Exports of nuts such as almonds and macadamias.",
+     "Agricultural product."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the export of nuts as a commodity or indicator."
+  },
+  {
+   "entity": "australian wine export",
+   "types": {
+    "Indicator": 6,
+    "Commodity": 3
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of wine exported from Australia.",
+     "Value of wine exports from Australia."
+    ],
+    "Commodity": [
+     "Wine exported from Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of Australian wine exports, with different labels indicating aspects (indicator vs. commodity)."
+  },
+  {
+   "entity": "mutton production",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of mutton produced in Australia.",
+     "Volume of mutton produced."
+    ],
+    "Commodity": [
+     "Production of mutton meat."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the production of mutton, with slight variations in phrasing and context."
+  },
+  {
+   "entity": "access-s2 model",
+   "types": {
+    "Indicator": 5,
+    "Organisation": 2
+   },
+   "mentions": 7,
+   "desc_by_type": {
+    "Indicator": [
+     "Seasonal weather forecast model used by the Bureau of Meteorology.",
+     "Model used for seasonal weather forecasts."
+    ],
+    "Organisation": [
+     "Seasonal weather forecasting model used by the Bureau of Meteorology.",
+     "Weather forecasting model used by the Bureau of Meteorology."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same seasonal weather forecast model used by the Bureau of Meteorology."
+  },
+  {
+   "entity": "brazilian sugar production",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of sugar produced in Brazil."
+    ],
+    "Commodity": [
+     "Sugar produced in Brazil.",
+     "Sugar production in Brazil."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of sugar production in Brazil, with different labels indicating the same entity."
+  },
+  {
+   "entity": "thai sugar production",
+   "types": {
+    "Indicator": 3,
+    "Commodity": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of sugar produced in Thailand."
+    ],
+    "Commodity": [
+     "Sugar produced in Thailand.",
+     "Sugar production in Thailand."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to sugar production in Thailand, with different labels indicating the same real-world concept."
+  },
+  {
+   "entity": "casual and contract labour",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Type of employment in agriculture, particularly used in seasonal and labour-intensive operations.",
+     "Number of casual and contract workers employed on farms."
+    ],
+    "Commodity": [
+     "Labour used on farms, particularly during peak seasons."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of casual and contract labour in agriculture."
+  },
+  {
+   "entity": "processor",
+   "types": {
+    "Organisation": 3,
+    "Location": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Organisation": [
+     "Entities driving demand for lamb and mutton.",
+     "Companies involved in meat processing."
+    ],
+    "Location": [
+     "Entities sourcing inventory for lamb processing."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'processor' refers to different types of entities in each case—organisations versus locations."
+  },
+  {
+   "entity": "australian agricultural production",
+   "types": {
+    "Commodity": 2,
+    "Indicator": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Commodity": [
+     "Total agricultural output in Australia.",
+     "Total agricultural production in Australia."
+    ],
+    "Indicator": [
+     "Real gross value of agricultural production in Australia.",
+     "Volume of agricultural production in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the overall agricultural output of Australia, just with different types of measurements or labels."
+  },
+  {
+   "entity": "us beef herd",
+   "types": {
+    "Indicator": 3,
+    "Commodity": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Number of cattle in the United States beef industry.",
+     "Number of cattle in the US beef industry."
+    ],
+    "Commodity": [
+     "Cattle population in the United States."
+    ]
+   },
+   "same": false,
+   "reason": "The entity refers to different concepts: 'US beef herd' as an indicator relates to the number of cattle in the beef industry, while as a commodity it refers to the cattle population itself."
+  },
+  {
+   "entity": "chinese demand",
+   "types": {
+    "Event": 4,
+    "Indicator": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Event": [
+     "Demand for coarse grains in China.",
+     "Demand for Australian sorghum in China."
+    ],
+    "Indicator": [
+     "Demand for Australian goods in China.",
+     "Demand for dairy products in China."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'chinese demand' refers to different categories of goods in each case, indicating distinct concepts."
+  },
+  {
+   "entity": "market access",
+   "types": {
+    "Indicator": 2,
+    "Policy": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Ability of Australian beef to enter international markets.",
+     "Ability of Australian agricultural exporters to access international markets."
+    ],
+    "Policy": [
+     "Facilitating export growth through improved access.",
+     "Access to foreign markets for agricultural products."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of market access in the context of Australian agricultural exports."
+  },
+  {
+   "entity": "above average rainfall",
+   "types": {
+    "Event": 3,
+    "Indicator": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Event": [
+     "Increased rainfall during late spring and summer in Queensland and northern New South Wales.",
+     "Weather condition contributing to increased production."
+    ],
+    "Indicator": [
+     "Measured rainfall levels exceeding the average."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same phenomenon of higher-than-average rainfall."
+  },
+  {
+   "entity": "tirza winarta",
+   "types": {
+    "Organisation": 3,
+    "Location": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Organisation": [
+     "Author of the report.",
+     "Author of the Agricultural Commodities Report."
+    ],
+    "Location": [
+     "Region in Australia where horticulture production is focused."
+    ]
+   },
+   "same": false,
+   "reason": "The name 'Tirza Winarta' is described as an author in one context and as a region in another, which likely refers to different real-world entities."
+  },
+  {
+   "entity": "climate risk",
+   "types": {
+    "Event": 4,
+    "Indicator": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Event": [
+     "Risk associated with climate conditions affecting farm profitability.",
+     "Uncertainty in climate conditions affecting 2026–27 farm performance."
+    ],
+    "Indicator": [
+     "Risk associated with climate change for businesses."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of climate risk affecting agricultural outcomes."
+  },
+  {
+   "entity": "spring rainfall",
+   "types": {
+    "Indicator": 4,
+    "Event": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Indicator": [
+     "Amount of rainfall during the spring season.",
+     "Rainfall during the spring season affecting sorghum planting."
+    ],
+    "Event": [
+     "Rainfall during spring season."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world phenomenon of rainfall occurring during the spring season."
+  },
+  {
+   "entity": "mixed cropping and livestock farm",
+   "types": {
+    "Commodity": 3,
+    "Location": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Commodity": [
+     "Farms that grow crops and raise livestock.",
+     "Farms engaged in both cropping and livestock activities."
+    ],
+    "Location": [
+     "Farms with both cropping and livestock enterprises."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to farms that combine cropping and livestock activities, regardless of the entity type label."
+  },
+  {
+   "entity": "restocker demand",
+   "types": {
+    "Indicator": 6,
+    "Event": 2
+   },
+   "mentions": 8,
+   "desc_by_type": {
+    "Indicator": [
+     "Demand for cattle by restockers.",
+     "Demand for restocker lambs from producers."
+    ],
+    "Event": [
+     "Increased demand for cattle by producers for restocking."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the demand for livestock by restockers or producers for restocking purposes."
+  },
+  {
+   "entity": "poultry slaughter",
+   "types": {
+    "Commodity": 3,
+    "Indicator": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Production of poultry meat.",
+     "The process of slaughtering poultry for meat production."
+    ],
+    "Indicator": [
+     "Average unit value of poultry slaughter in Australia.",
+     "Volume of poultry slaughtered."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the process and measurement of poultry slaughter in Australia."
+  },
+  {
+   "entity": "winemaker",
+   "types": {
+    "Location": 2,
+    "Organisation": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Location": [
+     "Producers of wine."
+    ],
+    "Organisation": [
+     "Producers in warm inland regions subsidising losses.",
+     "Producers of wine from grapes."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to entities involved in wine production, which aligns with the concept of a winemaker."
+  },
+  {
+   "entity": "poultry slaughtering",
+   "types": {
+    "Commodity": 3,
+    "Indicator": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "The process of slaughtering poultry for meat production.",
+     "Poultry meat processed for sale."
+    ],
+    "Indicator": [
+     "Value of poultry meat production."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of poultry slaughtering, with different labels indicating aspects of the process and its economic value."
+  },
+  {
+   "entity": "australian beef cattle herd",
+   "types": {
+    "Commodity": 5,
+    "Indicator": 4
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Commodity": [
+     "Population of cattle in Australia.",
+     "Population of beef cattle in Australia."
+    ],
+    "Indicator": [
+     "Number of beef cattle in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world entity: the population of beef cattle in Australia, with slight variations in phrasing and categorization."
+  },
+  {
+   "entity": "farm input",
+   "types": {
+    "Commodity": 3,
+    "Indicator": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Resources used in agricultural production.",
+     "Inputs used in agricultural production."
+    ],
+    "Indicator": [
+     "Resources used by Australian farms.",
+     "Costs of inputs used in farming."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to agricultural inputs or resources used in farming, regardless of the entity type label."
+  },
+  {
+   "entity": "seed variety",
+   "types": {
+    "Commodity": 3,
+    "Indicator": 1,
+    "Event": 1
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Types of seeds used in agricultural production.",
+     "Types of seeds used in wheat production."
+    ],
+    "Indicator": [
+     "Types of seeds used in farming."
+    ],
+    "Event": [
+     "Advancements in seed varieties in Western Australia."
+    ]
+   },
+   "same": false,
+   "reason": "The term 'seed variety' refers to different concepts across entity types: commodity, indicator, and event."
+  },
+  {
+   "entity": "cheese production",
+   "types": {
+    "Indicator": 2,
+    "Commodity": 2
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of cheese produced in Australia.",
+     "Volume of cheese produced."
+    ],
+    "Commodity": [
+     "Product derived from milk.",
+     "A dairy product."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same real-world concept of cheese production, with different labels indicating aspects of the commodity and its measurement."
+  },
+  {
+   "entity": "cropping activity",
+   "types": {
+    "Commodity": 3,
+    "Indicator": 2
+   },
+   "mentions": 5,
+   "desc_by_type": {
+    "Commodity": [
+     "Cultivation of crops in specific regions.",
+     "Agricultural practice involving growing crops."
+    ],
+    "Indicator": [
+     "The proportion of farming activities focused on crops.",
+     "The proportion of agricultural activity focused on crops."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of agricultural activity focused on growing crops."
+  },
+  {
+   "entity": "us cattle herd",
+   "types": {
+    "Indicator": 3,
+    "Location": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Size of the US cattle herd.",
+     "Number of cattle in the United States."
+    ],
+    "Location": [
+     "Cattle population in the United States."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the total cattle population in the United States, regardless of the entity type label."
+  },
+  {
+   "entity": "biosecurity",
+   "types": {
+    "Event": 6,
+    "Policy": 2,
+    "Indicator": 1
+   },
+   "mentions": 9,
+   "desc_by_type": {
+    "Event": [
+     "Measures to prevent the spread of diseases in agriculture.",
+     "Biosecurity risks to the poultry and egg industry."
+    ],
+    "Policy": [
+     "Ongoing costs associated with biosecurity.",
+     "Key risk for the livestock industry, focusing on prevention and preparedness measures."
+    ],
+    "Indicator": [
+     "Risk factor for the cattle industry due to potential disease introduction."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the concept of biosecurity in the context of agriculture, focusing on disease prevention and risk management across different industries."
+  },
+  {
+   "entity": "almond production",
+   "types": {
+    "Indicator": 4,
+    "Commodity": 2
+   },
+   "mentions": 6,
+   "desc_by_type": {
+    "Indicator": [
+     "Volume of almonds produced.",
+     "Volume of almond production in Australia."
+    ],
+    "Commodity": [
+     "Production of almonds in Australia."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the production of almonds in Australia, with slight variations in phrasing."
+  },
+  {
+   "entity": "winter rainfall outlook",
+   "types": {
+    "Indicator": 3,
+    "Event": 1
+   },
+   "mentions": 4,
+   "desc_by_type": {
+    "Indicator": [
+     "Forecast of rainfall during the winter season affecting vine growth.",
+     "Forecast for winter rainfall."
+    ],
+    "Event": [
+     "Positive rainfall forecast for winter crops in 2024–25."
+    ]
+   },
+   "same": true,
+   "reason": "All descriptions refer to the same concept of predicting winter rainfall, with different focuses on application and timeframe."
+  }
+ ]
+}

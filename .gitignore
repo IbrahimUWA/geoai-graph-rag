@@ -13,3 +13,6 @@ settings.json
 video/
 voice/
 *.zip
+data/graph.relate/
+data/graph_prov.kuzu*
+experiments/*.log

@@ -1,0 +1,83 @@
+{
+ "versions": {
+  "kuzu": "0.11.3",
+  "relate": "1.0.1"
+ },
+ "load_seconds": {
+  "kuzu_provenance_layer_only": 0.8,
+  "relate_full_graph_plus_provenance": 4.3
+ },
+ "counts": {
+  "Report": {
+   "kuzu": 32,
+   "relate": 32
+  },
+  "Chunk": {
+   "kuzu": 2739,
+   "relate": 2739
+  },
+  "Entity": {
+   "kuzu": 5744,
+   "relate": 5744
+  },
+  "Community": {
+   "kuzu": 197,
+   "relate": 197
+  },
+  "Mention": {
+   "kuzu": 25916,
+   "relate": 25916
+  },
+  "FROM_REPORT": {
+   "kuzu": 2739,
+   "relate": 2739
+  },
+  "MENTIONS": {
+   "kuzu": 25900,
+   "relate": 25900
+  },
+  "RELATED": {
+   "kuzu": 13898,
+   "relate": 13898
+  },
+  "IN_COMMUNITY": {
+   "kuzu": 9271,
+   "relate": 9271
+  },
+  "RESOLVED_TO": {
+   "kuzu": 25916,
+   "relate": 25916
+  }
+ },
+ "queries": {
+  "local_neighbours": {
+   "identical_results": "40/40",
+   "kuzu_ms_median": 5.67,
+   "relate_ms_median": 1.38
+  },
+  "chunks_for_entities": {
+   "identical_results": "40/40",
+   "kuzu_ms_median": 10.82,
+   "relate_ms_median": 9.54
+  },
+  "subgraph_edges": {
+   "identical_results": "40/40",
+   "kuzu_ms_median": 4.49,
+   "relate_ms_median": 0.31
+  },
+  "explore_2_hops": {
+   "identical_results": "40/40",
+   "kuzu_ms_median": 12.7,
+   "relate_ms_median": 5.77
+  },
+  "provenance": {
+   "identical_results": "40/40",
+   "kuzu_ms_median": 8.44,
+   "relate_ms_median": 36.39
+  }
+ },
+ "disk_bytes": {
+  "kuzu": 39428096,
+  "relate": 4699336
+ }
+}

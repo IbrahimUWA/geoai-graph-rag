@@ -1,0 +1,13 @@
+{
+ "split": [
+  "input",
+  "INPUT"
+ ],
+ "moved_mentions": 1,
+ "communities_before": 199,
+ "communities_after": 172,
+ "identical_communities": 66,
+ "need_new_summary": 106,
+ "communities_containing_entity_before": 2,
+ "louvain_seconds": 0.6
+}

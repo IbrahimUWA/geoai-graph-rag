@@ -94,6 +94,18 @@ Create `settings.json` in the app folder (the installer writes one), or use envi
 | `llm_url` | server address, e.g. `http://localhost:1234/v1` for LM Studio |
 | `embedder` | `Qwen/Qwen3-Embedding-0.6B` (default) |
 
+## Follow-up experiments (from viewer comments)
+
+[`experiments/`](experiments/README.md) answers three questions viewers asked after the lecture:
+
+- **Did entity resolution over-merge?** Every raw mention now keeps provenance, `(:Mention)-[:RESOLVED_TO {method, confidence}]->(:Entity)`.
+  A larger local model (Qwen3-14B) judged the 237 merges beyond case and punctuation plus 123 type conflicts.
+  Real over-merges were rare; generic hub entities such as "export price" were the bigger issue.
+- **What goes stale when a merge is undone?** Splitting one mention and re-running Louvain changed 106 of 172 communities,
+  so an incremental pipeline should re-cluster only the affected communities.
+- **Relate instead of Kuzu?** The same graph (34,628 nodes, 77,724 relationships) in Relate, Neo4j's embedded Cypher database,
+  gave identical results to Kuzu on all five app queries, was faster on four of them, and used 4.7 MB on disk against 39 MB.
+
 ## Tests
 
 ```bash
