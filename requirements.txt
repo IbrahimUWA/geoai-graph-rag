@@ -6,6 +6,7 @@ transformers>=4.51
 rank-bm25
 numpy
 pandas
+pyarrow                   # Kuzu reads pandas 3 text columns correctly only with pyarrow installed
 networkx>=3.2
 requests
 pymupdf                   # only for rebuilding from the PDFs
